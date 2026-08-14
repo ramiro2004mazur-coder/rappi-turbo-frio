@@ -1,0 +1,56 @@
+name: Scrapeo diario y publicación del dashboard
+
+on:
+  schedule:
+    # 12:00 UTC = 9:00 AM hora Argentina (Argentina no tiene horario de verano)
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}  # permite dispararlo a mano desde la pestaña "Actions" de GitHub
+
+permissions:
+  contents: write  # necesario para que el workflow pueda hacer commit y push
+
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Scrapear los 27 darkstores de Rappi Turbo
+        run: >
+          python scraper/scrape_beers.py
+          --store-ids 166964,184221,184923,184924,185340,185458,185460,186262,186327,207836,216336,224352,228542,231507,231868,231869,232258,234279,240042,242531,244575,244576,250388,255978,262497,266848,266872
+          --out data/cervezas_frias_rappi.csv
+
+      - name: Procesar datos del día (clasificar CMQ, armar dashboard_data.json)
+        run: python scraper/build_dashboard_data.py
+
+      - name: Sumar el día de hoy al histórico acumulado
+        run: python scraper/build_history_snapshot.py --csv data/cervezas_frias_rappi.csv
+
+      - name: Armar el dashboard final (docs/index.html)
+        run: python scraper/build_html.py
+
+      - name: Publicar los cambios en el repositorio
+        run: |
+          git config user.name "rappi-turbo-frio-bot"
+          git config user.email "actions@github.com"
+          git add data/ docs/
+          if git diff --cached --quiet; then
+            echo "No hay cambios nuevos para commitear."
+          else
+            git commit -m "Relevamiento automático $(date -u +%Y-%m-%d)"
+            git push
+          fi

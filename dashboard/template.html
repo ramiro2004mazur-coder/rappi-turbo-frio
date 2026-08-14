@@ -1,0 +1,1194 @@
+<meta charset="UTF-8">
+<title>Frío en Rappi Turbo</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg:            #f7f7f8;
+    --surface:       #ffffff;
+    --surface-2:     #f1f1f3;
+    --surface-3:     #ffffff;
+    --border:        rgba(10,10,12,0.09);
+    --border-strong: rgba(10,10,12,0.16);
+    --text-1:        #0a0a0c;
+    --text-2:        #55555f;
+    --text-3:        #85858e;
+
+    --accent:        #2a78d6;
+    --accent-wash:   rgba(42,120,214,0.10);
+    --accent-wash-2: rgba(42,120,214,0.18);
+    --cold:          #1baf7a;
+    --cold-wash:     rgba(27,175,122,0.12);
+    --rest:          #b7b3ab;
+    --rest-wash:     rgba(160,155,145,0.16);
+
+    --critical:      #d03b3b;
+    --critical-wash: rgba(208,59,59,0.10);
+    --good:          #0ca30c;
+
+    --shadow-sm: 0 1px 2px rgba(10,10,12,0.05);
+    --shadow-md: 0 4px 16px -4px rgba(10,10,12,0.10), 0 1px 2px rgba(10,10,12,0.06);
+    --shadow-lg: 0 24px 64px -16px rgba(10,10,12,0.30), 0 2px 8px rgba(10,10,12,0.12);
+    --backdrop:  rgba(10,10,12,0.32);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg:            #08080a;
+      --surface:       #111114;
+      --surface-2:     #17171b;
+      --surface-3:     #19191d;
+      --border:        rgba(255,255,255,0.075);
+      --border-strong: rgba(255,255,255,0.14);
+      --text-1:        #f5f5f7;
+      --text-2:        #9d9da5;
+      --text-3:        #6b6b72;
+
+      --accent:        #3987e5;
+      --accent-wash:   rgba(57,135,229,0.14);
+      --accent-wash-2: rgba(57,135,229,0.24);
+      --cold:          #199e70;
+      --cold-wash:     rgba(25,158,112,0.16);
+      --rest:          #55555e;
+      --rest-wash:     rgba(85,85,94,0.30);
+
+      --critical:      #e66767;
+      --critical-wash: rgba(230,103,103,0.14);
+      --good:          #0ca30c;
+
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+      --shadow-md: 0 4px 20px -4px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+      --shadow-lg: 0 32px 80px -16px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.5);
+      --backdrop:  rgba(4,4,5,0.55);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg:            #08080a;
+    --surface:       #111114;
+    --surface-2:     #17171b;
+    --surface-3:     #19191d;
+    --border:        rgba(255,255,255,0.075);
+    --border-strong: rgba(255,255,255,0.14);
+    --text-1:        #f5f5f7;
+    --text-2:        #9d9da5;
+    --text-3:        #6b6b72;
+
+    --accent:        #3987e5;
+    --accent-wash:   rgba(57,135,229,0.14);
+    --accent-wash-2: rgba(57,135,229,0.24);
+    --cold:          #199e70;
+    --cold-wash:     rgba(25,158,112,0.16);
+    --rest:          #55555e;
+    --rest-wash:     rgba(85,85,94,0.30);
+
+    --critical:      #e66767;
+    --critical-wash: rgba(230,103,103,0.14);
+    --good:          #0ca30c;
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-md: 0 4px 20px -4px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-lg: 0 32px 80px -16px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.5);
+    --backdrop:  rgba(4,4,5,0.55);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  ::selection { background: var(--accent-wash-2); }
+  button { font-family: inherit; }
+
+  .app { min-height: 100%; }
+
+  /* ---------------- header ---------------- */
+  header.topbar {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 28px; height: 60px;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-left { display: flex; align-items: center; gap: 10px; }
+  .mark { width: 22px; height: 22px; border-radius: 6px; background: var(--accent); flex-shrink: 0; }
+  .topbar-title { font-size: 13.5px; font-weight: 700; letter-spacing: -0.01em; }
+  .topbar-sub { font-size: 12px; color: var(--text-3); margin-left: 8px; padding-left: 8px; border-left: 1px solid var(--border); }
+  .search-wrap { position: relative; width: 300px; }
+  .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; opacity: 0.5; }
+  .search-input {
+    width: 100%; font-size: 13px; padding: 7px 12px 7px 32px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--text-1);
+    font-family: inherit; transition: border-color .15s, background .15s;
+  }
+  .search-input::placeholder { color: var(--text-3); }
+  .search-input:focus { outline: none; border-color: var(--accent); background: var(--surface); }
+  .search-kbd { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); font-size: 10.5px; color: var(--text-3); background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; pointer-events: none; }
+
+  .wrap { max-width: 1220px; margin: 0 auto; padding: 0 28px 90px; }
+
+  /* ---------------- view tabs ---------------- */
+  nav.view-tabs {
+    position: sticky; top: 60px; z-index: 19;
+    display: flex; gap: 22px; padding: 0 28px;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .view-tab {
+    font-size: 13px; font-weight: 600; color: var(--text-2);
+    background: none; border: none; cursor: pointer;
+    padding: 14px 2px 12px; border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .view-tab:hover { color: var(--text-1); }
+  .view-tab.active { color: var(--text-1); border-bottom-color: var(--accent); }
+
+  .page-head { padding: 40px 0 4px; }
+  .page-head h1 { font-size: 25px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 6px; }
+  .page-head p { font-size: 13.5px; color: var(--text-2); max-width: 640px; line-height: 1.55; margin: 0; }
+
+  /* ---------------- province pills ---------------- */
+  .pillbar { display: flex; justify-content: center; gap: 8px; padding: 34px 0 30px; flex-wrap: wrap; }
+  .pill {
+    font-size: 13px; font-weight: 600; padding: 7px 16px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text-2);
+    cursor: pointer; transition: all .15s;
+  }
+  .pill:hover { border-color: var(--border-strong); color: var(--text-1); }
+  .pill.active { background: var(--text-1); border-color: var(--text-1); color: var(--bg); }
+
+  /* ---------------- kpi strip ---------------- */
+  .kpi-strip {
+    display: flex; align-items: center; justify-content: center; gap: 0; flex-wrap: wrap;
+    padding: 18px 0; margin-bottom: 44px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .kpi-item { padding: 0 26px; text-align: center; border-right: 1px solid var(--border); }
+  .kpi-item:last-child { border-right: none; }
+  .kpi-num { font-size: 20px; font-weight: 800; letter-spacing: -0.01em; }
+  .kpi-num.accent { color: var(--accent); }
+  .kpi-num.cold { color: var(--cold); }
+  .kpi-lbl { font-size: 11px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 3px; }
+
+  /* ---------------- main grid layout ---------------- */
+  .main-grid { display: grid; grid-template-columns: 1fr 300px; gap: 24px; align-items: start; }
+
+  .section-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px; }
+  .section-head h2 { font-size: 15px; font-weight: 800; margin: 0; letter-spacing: -0.01em; }
+  .section-head .count { font-size: 12.5px; color: var(--text-3); }
+  .sort-select {
+    font-size: 12.5px; font-weight: 600; padding: 5px 26px 5px 10px; border-radius: 7px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text-2);
+    font-family: inherit; cursor: pointer; appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath d='M2 4l3 3 3-3' stroke='%2385858e' stroke-width='1.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 9px center;
+  }
+
+  /* store grid */
+  .store-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 12px; }
+  .store-card {
+    text-align: left; cursor: pointer; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px; box-shadow: var(--shadow-sm);
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .store-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--border-strong); }
+  .store-card.no-cold { opacity: 0.72; }
+  .store-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .store-card-name { font-size: 14px; font-weight: 700; letter-spacing: -0.005em; }
+  .store-card-addr { font-size: 11.5px; color: var(--text-3); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .store-card-prov { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--text-3); background: var(--surface-2); border-radius: 5px; padding: 2px 6px; flex-shrink: 0; }
+  .store-card-stat { display: flex; align-items: baseline; gap: 6px; }
+  .store-card-stat .n { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .store-card-stat .of { font-size: 12px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+  .store-card-stat .pct { margin-left: auto; font-size: 12.5px; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .store-card.no-cold .store-card-stat .pct { color: var(--critical); }
+  .split-bar { height: 6px; border-radius: 999px; overflow: hidden; display: flex; background: var(--surface-2); }
+  .split-bar .seg.cmq { background: var(--accent); }
+  .split-bar .seg.rest { background: var(--rest); }
+  .no-cold-tag {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700;
+    color: var(--critical); background: var(--critical-wash); border-radius: 6px; padding: 4px 8px; width: fit-content;
+  }
+  .no-cold-tag .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--critical); }
+  .match-tag {
+    font-size: 10.5px; font-weight: 700; color: var(--accent); background: var(--accent-wash);
+    border-radius: 5px; padding: 2px 6px; width: fit-content;
+  }
+  .empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-3); font-size: 13.5px; }
+
+  /* ---------------- sidebar ---------------- */
+  .side-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; box-shadow: var(--shadow-sm); }
+  .side-card h3 { font-size: 12.5px; font-weight: 800; margin: 0 0 14px; letter-spacing: -0.005em; }
+
+  .prov-mini-row { margin-bottom: 12px; opacity: 1; transition: opacity .15s; }
+  .prov-mini-row.dim { opacity: 0.35; }
+  .prov-mini-row:last-child { margin-bottom: 0; }
+  .prov-mini-head { display: flex; justify-content: space-between; font-size: 12.5px; margin-bottom: 5px; }
+  .prov-mini-head b { font-weight: 600; }
+  .prov-mini-head span.v { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--text-1); }
+  .prov-mini-track { height: 6px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+  .prov-mini-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+
+  .brand-mini-row { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+  .brand-mini-row:last-child { border-bottom: none; }
+  .brand-mini-name { font-size: 12.5px; font-weight: 600; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display:flex; align-items:center; gap:6px; }
+  .brand-mini-name .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex-shrink:0; }
+  .brand-mini-pct { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2); }
+  .show-more-btn {
+    width: 100%; margin-top: 10px; font-size: 12px; font-weight: 700; color: var(--accent);
+    background: none; border: none; cursor: pointer; padding: 4px 0; text-align: left;
+  }
+
+  footer.foot { text-align: center; font-size: 11.5px; color: var(--text-3); padding-top: 10px; }
+
+  /* ---------------- drawer ---------------- */
+  .backdrop {
+    position: fixed; inset: 0; background: var(--backdrop); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px);
+    z-index: 40; opacity: 0; pointer-events: none; transition: opacity .22s ease;
+  }
+  .backdrop.open { opacity: 1; pointer-events: auto; }
+
+  .drawer {
+    position: fixed; top: 0; right: 0; bottom: 0; width: 480px; max-width: 92vw;
+    background: var(--surface-3); border-left: 1px solid var(--border);
+    box-shadow: var(--shadow-lg); z-index: 41;
+    transform: translateX(100%); transition: transform .28s cubic-bezier(.22,.8,.28,1);
+    display: flex; flex-direction: column;
+  }
+  .drawer.open { transform: translateX(0); }
+
+  .drawer-head { padding: 20px 22px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+  .drawer-back {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; color: var(--text-2);
+    background: none; border: none; cursor: pointer; padding: 0; margin-bottom: 14px;
+  }
+  .drawer-back:hover { color: var(--text-1); }
+  .drawer-title-row { display: flex; justify-content: space-between; align-items: flex-start; }
+  .drawer-title { font-size: 19px; font-weight: 800; letter-spacing: -0.01em; }
+  .drawer-addr { font-size: 12.5px; color: var(--text-3); margin-top: 3px; }
+  .drawer-close {
+    width: 28px; height: 28px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2);
+    color: var(--text-2); cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .drawer-close:hover { background: var(--surface); color: var(--text-1); }
+
+  .drawer-stats { display: flex; gap: 22px; padding: 16px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+  .drawer-stat .n { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .drawer-stat .n.accent { color: var(--accent); }
+  .drawer-stat .l { font-size: 11px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.03em; margin-top: 2px; }
+
+  .drawer-search { padding: 14px 22px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+  .drawer-search .search-input { background: var(--surface-2); }
+
+  .drawer-body { flex: 1; overflow-y: auto; padding: 6px 22px 30px; }
+  .sku-group-title {
+    font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--text-3); margin: 20px 0 8px; display: flex; align-items: center; gap: 7px;
+  }
+  .sku-group-title .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .sku-group-title .dot.cmq { background: var(--accent); }
+  .sku-group-title .dot.rest { background: var(--rest); }
+  .sku-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .sku-row:last-child { border-bottom: none; }
+  .sku-info .name { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .sku-info .meta { font-size: 11.5px; color: var(--text-3); margin-top: 2px; }
+  .sku-price { font-size: 12.5px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2); flex-shrink: 0; white-space: nowrap; }
+  .drawer-empty { text-align: center; color: var(--text-3); font-size: 12.5px; padding: 24px 0; }
+
+  /* ---------------- métricas ---------------- */
+  .metric-section { margin-top: 40px; }
+  .metric-section:first-child { margin-top: 24px; }
+  .metric-section-title {
+    font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--text-3); margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+  }
+  .metric-section-title .badge-note {
+    font-size: 10px; font-weight: 700; text-transform: none; letter-spacing: 0;
+    color: var(--accent); background: var(--accent-wash); padding: 2px 8px; border-radius: 5px;
+  }
+  .metric-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; align-items: stretch; }
+
+  .stat-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 20px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; gap: 5px;
+  }
+  .stat-card.accent-ring { border-color: var(--accent-wash-2); }
+
+  .stat-number { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat-number .of { font-size: 15px; font-weight: 600; color: var(--text-3); margin-left: 5px; }
+  .stat-number.accent { color: var(--accent); }
+  .stat-number.cold { color: var(--cold); }
+  .stat-number.critical { color: var(--critical); }
+
+  .stat-sub { font-size: 12px; font-weight: 700; color: var(--text-3); }
+  .stat-label { font-size: 12.5px; font-weight: 700; margin-top: 5px; }
+  .stat-explain { font-size: 11.5px; color: var(--text-2); line-height: 1.5; margin-top: 2px; }
+
+  .stat-card.pair { grid-column: span 2; flex-direction: row; gap: 0; padding: 0; }
+  .pair-half { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 4px; }
+  .pair-half + .pair-half { border-left: 1px solid var(--border); }
+
+  .stat-card.list-card { grid-column: span 2; }
+  .list-card-header { margin-bottom: 6px; }
+  .list-scroll { max-height: 260px; overflow-y: auto; display: flex; flex-direction: column; margin-top: 8px; }
+  .list-row { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+  .list-row:last-child { border-bottom: none; }
+  .list-row .rank-n { font-size: 11px; color: var(--text-3); width: 16px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+  .list-row .rank-name { font-size: 12px; font-weight: 600; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: flex; align-items: center; gap: 6px; }
+  .list-row .rank-name .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .list-row .rank-val { font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+  .list-row .rank-bar-wrap { width: 64px; height: 6px; background: var(--surface-2); border-radius: 999px; overflow: hidden; flex-shrink: 0; }
+  .list-row .rank-bar-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+
+  .stat-card.split-rank { grid-column: span 2; }
+  .split-rank-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
+  .split-rank-col-title { font-size: 10.5px; font-weight: 700; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 6px; }
+  .split-rank-col.worst .split-rank-col-title { color: var(--critical); }
+
+  .stat-card.alert-card { grid-column: 1 / -1; border-color: var(--critical-wash); }
+  .alert-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 8px; margin-top: 12px; }
+  .alert-chip { font-size: 12px; font-weight: 600; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; }
+  .alert-chip .prov { font-size: 10.5px; color: var(--text-3); font-weight: 500; margin-top: 1px; }
+
+  .verdict-badge {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700;
+    padding: 6px 12px; border-radius: 999px;
+  }
+  .verdict-badge.favorable { background: rgba(12,163,12,0.12); color: var(--good); }
+  .verdict-badge.unfavorable { background: var(--critical-wash); color: var(--critical); }
+
+  /* ---------------- evolución histórica ---------------- */
+  .history-toolbar { display: flex; justify-content: space-between; align-items: center; margin: 24px 0 16px; gap: 14px; flex-wrap: wrap; }
+  .history-status { font-size: 12px; color: var(--text-3); }
+  .history-status.ok { color: var(--good); }
+  .history-status.error { color: var(--critical); }
+  .upload-btn {
+    font-size: 12.5px; font-weight: 700; padding: 8px 14px; border-radius: 8px;
+    border: 1px solid var(--accent); background: var(--accent-wash); color: var(--accent);
+    font-family: inherit; cursor: pointer; transition: background .15s;
+  }
+  .upload-btn:hover { background: var(--accent-wash-2); }
+  .format-hint {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px; font-size: 12px; color: var(--text-2); margin-bottom: 20px; line-height: 1.7;
+  }
+  .format-hint code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 11px;
+    background: var(--surface-2); padding: 2px 6px; border-radius: 4px; color: var(--text-1);
+  }
+  .heatmap-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; margin-bottom: 40px; }
+  table.heatmap { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+  table.heatmap th, table.heatmap td { padding: 11px 16px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--border); }
+  table.heatmap tbody tr:last-child td { border-bottom: none; }
+  table.heatmap thead th {
+    font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-3);
+    font-weight: 700; background: var(--surface-2);
+  }
+  table.heatmap th.store-col, table.heatmap td.store-col {
+    position: sticky; left: 0; background: var(--surface); text-align: left; z-index: 2;
+    border-right: 1px solid var(--border); min-width: 170px;
+  }
+  table.heatmap thead th.store-col { background: var(--surface-2); z-index: 3; }
+  .store-col-prov { font-size: 10.5px; color: var(--text-3); font-weight: 500; margin-top: 1px; }
+  .hm-cell { display: inline-flex; align-items: baseline; gap: 6px; font-variant-numeric: tabular-nums; }
+  .hm-total { font-weight: 700; color: var(--text-1); }
+  .hm-cmq-badge { font-size: 10px; font-weight: 700; color: var(--accent); background: var(--accent-wash); border-radius: 5px; padding: 1px 6px; }
+  .hm-empty { color: var(--text-3); }
+  .hm-trend { font-size: 10px; }
+  .hm-trend.up { color: var(--good); }
+  .hm-trend.down { color: var(--critical); }
+  .hm-trend.flat { color: var(--text-3); }
+
+  @media (max-width: 980px) {
+    .main-grid { grid-template-columns: 1fr; }
+    .metric-row { grid-template-columns: 1fr; gap: 8px; }
+  }
+</style>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="mark"></div>
+      <span class="topbar-title">Frío en Rappi Turbo</span>
+      <span class="topbar-sub" id="topbar-sub"></span>
+    </div>
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.7" stroke="currentColor" stroke-width="1.4"/><path d="M9.6 9.6L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <input class="search-input" id="global-search" type="text" placeholder="Buscar SKU o marca…" />
+    </div>
+  </header>
+
+  <nav class="view-tabs">
+    <button class="view-tab active" data-view="dashboard">Dashboard</button>
+    <button class="view-tab" data-view="metrics">Métricas</button>
+    <button class="view-tab" data-view="history">Evolución histórica</button>
+  </nav>
+
+  <div class="wrap">
+
+    <div id="view-dashboard" class="view">
+
+      <div class="pillbar" id="province-pills"></div>
+
+      <div class="kpi-strip" id="kpi-strip"></div>
+
+      <div class="main-grid">
+        <div>
+          <div class="section-head">
+            <h2>Darkstores <span class="count" id="store-count"></span></h2>
+            <select class="sort-select" id="sort-select">
+              <option value="pct_desc">Mayor % en frío</option>
+              <option value="total_desc">Mayor catálogo</option>
+              <option value="name_asc">Nombre A–Z</option>
+            </select>
+          </div>
+          <div class="store-grid" id="store-grid"></div>
+        </div>
+
+        <aside>
+          <div class="side-card">
+            <h3>Por provincia</h3>
+            <div id="province-mini"></div>
+          </div>
+          <div class="side-card">
+            <h3>Marcas con más frío</h3>
+            <div id="brand-mini"></div>
+            <button class="show-more-btn" id="brand-toggle">Ver todas las marcas →</button>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="foot">27 darkstores relevados en Rappi Turbo (rappi.com.ar) · Generado el <span id="gen-date"></span></footer>
+    </div>
+
+    <div id="view-metrics" class="view" hidden>
+      <div class="page-head">
+        <h1>Métricas</h1>
+        <p>Todo lo que mide este dashboard, agrupado por tema — el número manda, la explicación acompaña.</p>
+      </div>
+      <div id="metrics-content"></div>
+    </div>
+
+    <div id="view-history" class="view" hidden>
+      <div class="page-head">
+        <h1>Evolución histórica</h1>
+        <p>Un relevamiento por columna, un darkstore por fila. Se actualiza solo todos los días — el botón de abajo es solo para sumar un archivo suelto a mano si hace falta.</p>
+      </div>
+      <div class="history-toolbar">
+        <span class="row-count" id="history-date-count"></span>
+        <div style="display:flex; gap:12px; align-items:center;">
+          <span class="history-status" id="history-status"></span>
+          <button class="upload-btn" id="history-upload-btn">+ Cargar relevamiento manual</button>
+          <input type="file" id="history-file-input" accept=".json,.csv" hidden>
+        </div>
+      </div>
+      <div class="format-hint">
+        Esto ya no hace falta para el día a día — el dashboard se actualiza solo. Formato por si algún día
+        cargás algo a mano, un registro por darkstore, en JSON o CSV:<br/>
+        <code>[{"date":"2026-08-14","store_id":166964,"cold_total":12,"cold_cmq":8}, …]</code><br/>
+        o un CSV con columnas <code>date,store_id,cold_total,cold_cmq</code>. El script
+        <code>build_history_snapshot.py</code> genera este archivo automáticamente a partir de un nuevo scrapeo.
+      </div>
+      <div class="heatmap-wrap">
+        <table class="heatmap">
+          <thead id="history-thead"></thead>
+          <tbody id="history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <button class="drawer-back" id="drawer-back">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M7.5 2.5L3 6l4.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Volver
+    </button>
+    <div class="drawer-title-row">
+      <div>
+        <div class="drawer-title" id="drawer-title"></div>
+        <div class="drawer-addr" id="drawer-addr"></div>
+      </div>
+      <button class="drawer-close" id="drawer-close" aria-label="Cerrar">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 2l9 9M11 2l-9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="drawer-stats" id="drawer-stats"></div>
+  <div class="drawer-search">
+    <div class="search-wrap" style="width:100%;">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.7" stroke="currentColor" stroke-width="1.4"/><path d="M9.6 9.6L13 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <input class="search-input" id="drawer-search-input" type="text" placeholder="Buscar dentro de este local…" />
+    </div>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
+<script id="raw-data" type="application/json">__DATA_JSON__</script>
+<script id="history-data" type="application/json">__HISTORY_JSON__</script>
+<script>
+(function () {
+  const raw = JSON.parse(document.getElementById('raw-data').textContent);
+  const COLS = raw.columns;
+  const idx = Object.fromEntries(COLS.map((c, i) => [c, i]));
+  const ALL_ROWS = raw.rows.map(r => ({
+    store_id: r[idx.store_id], store_name: r[idx.store_name], address: r[idx.address], province: r[idx.province],
+    region: r[idx.region], name: r[idx.name], brand: r[idx.brand], owner: r[idx.owner],
+    is_cmq: r[idx.is_cmq], cold: r[idx.cold], in_stock: r[idx.in_stock], price: r[idx.price],
+    presentation: r[idx.presentation],
+  }));
+
+  const PROVINCES = [...new Set(ALL_ROWS.map(r => r.province))].sort();
+  const N_STORES = new Set(ALL_ROWS.map(r => r.store_id)).size;
+  const SCRAPE_DATE = (raw.meta && raw.meta.scrape_date) || new Date().toISOString().slice(0, 10);
+
+  const STORE_META = {};
+  ALL_ROWS.forEach(r => {
+    if (!STORE_META[r.store_id]) STORE_META[r.store_id] = { name: r.store_name, address: r.address, province: r.province };
+  });
+  const STORE_IDS = Object.keys(STORE_META).map(Number);
+
+  document.getElementById('topbar-sub').textContent = `${N_STORES} darkstores · ${ALL_ROWS.length.toLocaleString('es-AR')} SKU-instancias`;
+  document.getElementById('gen-date').textContent = new Date().toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
+
+  const state = { view: 'dashboard', province: 'all', search: '', sort: 'pct_desc', openStoreId: null, brandExpanded: false, history: [] };
+
+  function computeTodaySnapshot() {
+    const agg = {};
+    ALL_ROWS.forEach(r => {
+      const s = agg[r.store_id] || (agg[r.store_id] = { store_id: r.store_id, cold_total: 0, cold_cmq: 0 });
+      if (r.cold) { s.cold_total++; if (r.is_cmq) s.cold_cmq++; }
+    });
+    return Object.values(agg).map(s => ({ date: SCRAPE_DATE, ...s }));
+  }
+  // El histórico completo se hornea en el HTML en cada corrida automática
+  // (build_html.py). Si por algún motivo viene vacío, al menos mostramos hoy.
+  const HISTORY_SEED = JSON.parse(document.getElementById('history-data').textContent);
+  state.history = HISTORY_SEED.length ? HISTORY_SEED : computeTodaySnapshot();
+
+  // ---- province pills ----
+  const pillWrap = document.getElementById('province-pills');
+  const allPill = document.createElement('button');
+  allPill.className = 'pill'; allPill.textContent = 'Todas'; allPill.dataset.prov = 'all';
+  pillWrap.appendChild(allPill);
+  PROVINCES.forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'pill'; btn.textContent = p; btn.dataset.prov = p;
+    pillWrap.appendChild(btn);
+  });
+  pillWrap.addEventListener('click', (e) => {
+    const btn = e.target.closest('.pill');
+    if (!btn) return;
+    state.province = btn.dataset.prov;
+    render();
+  });
+
+  // ---- search ----
+  const globalSearch = document.getElementById('global-search');
+  const drawerSearch = document.getElementById('drawer-search-input');
+  function setSearch(v) {
+    state.search = v;
+    globalSearch.value = v;
+    drawerSearch.value = v;
+    render();
+  }
+  globalSearch.addEventListener('input', e => setSearch(e.target.value));
+  drawerSearch.addEventListener('input', e => setSearch(e.target.value));
+
+  // ---- sort ----
+  document.getElementById('sort-select').addEventListener('change', e => { state.sort = e.target.value; render(); });
+
+  // ---- brand toggle ----
+  document.getElementById('brand-toggle').addEventListener('click', () => { state.brandExpanded = !state.brandExpanded; render(); });
+
+  // ---- view tabs ----
+  let metricsRendered = false;
+  function switchView(view) {
+    state.view = view;
+    ['dashboard', 'metrics', 'history'].forEach(v => { document.getElementById('view-' + v).hidden = (v !== view); });
+    document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.dataset.view === view));
+    if (view === 'metrics' && !metricsRendered) { renderMetrics(); metricsRendered = true; }
+    if (view === 'history') renderHistory();
+  }
+  document.querySelectorAll('.view-tab').forEach(t => t.addEventListener('click', () => switchView(t.dataset.view)));
+
+  // ---- history upload ----
+  const historyFileInput = document.getElementById('history-file-input');
+  document.getElementById('history-upload-btn').addEventListener('click', () => historyFileInput.click());
+  historyFileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    e.target.value = '';
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const parsed = parseHistoryFile(reader.result, file.name);
+        const { added, skipped } = mergeHistory(parsed);
+        showHistoryStatus(
+          `Cargados ${added} local${added === 1 ? '' : 'es'}${skipped ? `, ${skipped} fila${skipped === 1 ? '' : 's'} omitida${skipped === 1 ? '' : 's'} por formato inválido` : ''}.`,
+          skipped && !added ? 'error' : 'ok'
+        );
+        renderHistory();
+      } catch (err) {
+        showHistoryStatus('No se pudo leer el archivo: ' + err.message, 'error');
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  function showHistoryStatus(msg, kind) {
+    const el = document.getElementById('history-status');
+    el.textContent = msg;
+    el.className = 'history-status' + (kind ? ' ' + kind : '');
+  }
+
+  function parseHistoryFile(text, filename) {
+    const looksJSON = filename.toLowerCase().endsWith('.json') || text.trim().startsWith('[') || text.trim().startsWith('{');
+    if (looksJSON) {
+      const data = JSON.parse(text);
+      return Array.isArray(data) ? data : (data.rows || []);
+    }
+    const lines = text.split(/\r?\n/).filter(l => l.trim().length);
+    if (!lines.length) return [];
+    const header = lines[0].split(',').map(h => h.trim().toLowerCase());
+    const iDate = header.indexOf('date'), iStore = header.indexOf('store_id');
+    const iTotal = header.indexOf('cold_total'), iCmq = header.indexOf('cold_cmq');
+    const out = [];
+    for (let i = 1; i < lines.length; i++) {
+      const cols = lines[i].split(',');
+      out.push({ date: (cols[iDate] || '').trim(), store_id: cols[iStore], cold_total: cols[iTotal], cold_cmq: cols[iCmq] });
+    }
+    return out;
+  }
+
+  function mergeHistory(rows) {
+    let added = 0, skipped = 0;
+    rows.forEach(r => {
+      const sid = Number(r.store_id);
+      const total = Number(r.cold_total);
+      const cmq = Number(r.cold_cmq);
+      if (!STORE_META[sid] || !r.date || !Number.isFinite(total) || !Number.isFinite(cmq)) { skipped++; return; }
+      state.history = state.history.filter(h => !(h.date === String(r.date) && h.store_id === sid));
+      state.history.push({ date: String(r.date), store_id: sid, cold_total: total, cold_cmq: cmq });
+      added++;
+    });
+    return { added, skipped };
+  }
+
+  function formatDateLabel(d) {
+    try {
+      const dt = new Date(d + 'T00:00:00');
+      if (isNaN(dt)) return d;
+      return dt.toLocaleDateString('es-AR', { day: '2-digit', month: 'short' });
+    } catch { return d; }
+  }
+
+  // ---- drawer open/close ----
+  const backdrop = document.getElementById('backdrop');
+  const drawer = document.getElementById('drawer');
+  function openDrawer(storeId) { state.openStoreId = storeId; render(); }
+  function closeDrawer() { state.openStoreId = null; render(); }
+  document.getElementById('drawer-close').addEventListener('click', closeDrawer);
+  document.getElementById('drawer-back').addEventListener('click', closeDrawer);
+  backdrop.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && state.openStoreId) closeDrawer(); });
+
+  // ---- helpers ----
+  function pct(n, d) { return d ? (100 * n / d) : 0; }
+  function fmt(n) { return n.toLocaleString('es-AR'); }
+  function fmtPct(n) { return n.toFixed(1) + '%'; }
+  function fmtMoney(n) { return n == null ? '—' : '$' + Math.round(n).toLocaleString('es-AR'); }
+
+  function byProvince(rows) {
+    if (state.province === 'all') return rows;
+    return rows.filter(r => r.province === state.province);
+  }
+
+  function aggregateStores(rows) {
+    const agg = {};
+    rows.forEach(r => {
+      const s = agg[r.store_id] || (agg[r.store_id] = {
+        store_id: r.store_id, store_name: r.store_name, address: r.address, province: r.province,
+        total: 0, cold_total: 0, cmq_total: 0, cold_cmq: 0, rest_total: 0, cold_rest: 0,
+      });
+      s.total++;
+      if (r.is_cmq) { s.cmq_total++; if (r.cold) s.cold_cmq++; }
+      else { s.rest_total++; if (r.cold) s.cold_rest++; }
+      if (r.cold) s.cold_total++;
+    });
+    return Object.values(agg).map(s => ({ ...s, pct_cold: pct(s.cold_total, s.total) }));
+  }
+
+  function render() {
+    document.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.prov === state.province));
+
+    const provRows = byProvince(ALL_ROWS);
+    const cmqRows = provRows.filter(r => r.is_cmq);
+    const restRows = provRows.filter(r => !r.is_cmq);
+    const cmqCold = cmqRows.filter(r => r.cold).length;
+    const restCold = restRows.filter(r => r.cold).length;
+    const pctCmq = pct(cmqCold, cmqRows.length);
+    const pctRest = pct(restCold, restRows.length);
+    const coldRows = provRows.filter(r => r.cold);
+
+    // kpi strip
+    const kpis = [
+      { n: fmt(provRows.length), l: 'SKU totales' },
+      { n: fmt(cmqRows.length), l: `SKU CMQ (${fmtPct(pct(cmqRows.length, provRows.length))})`, cls: 'accent' },
+      { n: fmt(coldRows.length), l: 'SKU en frío', cls: 'cold' },
+      { n: fmt(cmqCold), l: 'Frío que es CMQ', cls: 'accent' },
+      { n: fmt(restCold), l: 'Frío que es resto' },
+    ];
+    document.getElementById('kpi-strip').innerHTML = kpis.map(k => `
+      <div class="kpi-item"><div class="kpi-num ${k.cls || ''}">${k.n}</div><div class="kpi-lbl">${k.l}</div></div>
+    `).join('');
+
+    // province mini
+    const provWrap = document.getElementById('province-mini');
+    const provStats = PROVINCES.map(p => {
+      const rows = ALL_ROWS.filter(r => r.province === p);
+      return { p, total: rows.length, pctCold: pct(rows.filter(r => r.cold).length, rows.length) };
+    });
+    provWrap.innerHTML = provStats.map(s => `
+      <div class="prov-mini-row ${state.province !== 'all' && state.province !== s.p ? 'dim' : ''}">
+        <div class="prov-mini-head"><b>${s.p}</b><span class="v">${fmtPct(s.pctCold)}</span></div>
+        <div class="prov-mini-track"><div class="prov-mini-fill" style="width:${Math.min(100, s.pctCold * 3)}%"></div></div>
+      </div>`).join('');
+
+    // brand mini
+    const brandAgg = {};
+    provRows.forEach(r => {
+      const b = brandAgg[r.brand] || (brandAgg[r.brand] = { brand: r.brand, is_cmq: r.is_cmq, total: 0, cold: 0 });
+      b.total++; if (r.cold) b.cold++;
+    });
+    const brandList = Object.values(brandAgg).map(b => ({ ...b, pct: pct(b.cold, b.total) })).sort((a, b) => b.pct - a.pct);
+    const shown = state.brandExpanded ? brandList : brandList.slice(0, 6);
+    document.getElementById('brand-mini').innerHTML = shown.map(b => `
+      <div class="brand-mini-row">
+        <div class="brand-mini-name"><span class="dot" style="background:${b.is_cmq ? 'var(--accent)' : 'var(--rest)'}"></span>${b.brand}</div>
+        <div class="brand-mini-pct">${fmtPct(b.pct)}</div>
+      </div>`).join('');
+    document.getElementById('brand-toggle').textContent = state.brandExpanded ? '← Ver menos' : `Ver todas las marcas (${brandList.length}) →`;
+
+    // store grid
+    const searchLower = state.search.trim().toLowerCase();
+    const storeStats = aggregateStores(provRows);
+    let visibleStores = storeStats;
+    let matchCounts = {};
+    if (searchLower) {
+      provRows.forEach(r => {
+        if (!r.cold) return;
+        const hay = (r.name + ' ' + r.brand).toLowerCase();
+        if (hay.includes(searchLower)) matchCounts[r.store_id] = (matchCounts[r.store_id] || 0) + 1;
+      });
+      visibleStores = storeStats.filter(s => matchCounts[s.store_id]);
+    }
+
+    const sortFns = {
+      pct_desc: (a, b) => b.pct_cold - a.pct_cold,
+      total_desc: (a, b) => b.total - a.total,
+      name_asc: (a, b) => a.store_name.localeCompare(b.store_name),
+    };
+    visibleStores = [...visibleStores].sort(sortFns[state.sort]);
+
+    document.getElementById('store-count').textContent = `${visibleStores.length} de ${storeStats.length}`;
+    const grid = document.getElementById('store-grid');
+    if (!visibleStores.length) {
+      grid.innerHTML = `<div class="empty-state">Ningún local coincide con "${state.search}"${state.province !== 'all' ? ' en ' + state.province : ''}.</div>`;
+    } else {
+      grid.innerHTML = visibleStores.map(s => {
+        const cmqSegPct = s.cold_total ? (s.cold_cmq / s.cold_total * 100) : 0;
+        const restSegPct = s.cold_total ? (s.cold_rest / s.cold_total * 100) : 0;
+        return `
+        <button class="store-card ${s.cold_total === 0 ? 'no-cold' : ''}" data-store-id="${s.store_id}">
+          <div class="store-card-top">
+            <div>
+              <div class="store-card-name">${s.store_name}</div>
+              <div class="store-card-addr">${s.address}</div>
+            </div>
+            ${state.province === 'all' ? `<div class="store-card-prov">${s.province}</div>` : ''}
+          </div>
+          ${matchCounts[s.store_id] ? `<div class="match-tag">${matchCounts[s.store_id]} coincidencia${matchCounts[s.store_id] > 1 ? 's' : ''}</div>` : ''}
+          ${s.cold_total === 0
+            ? `<div class="no-cold-tag"><span class="dot"></span>Sin SKU en frío</div>`
+            : `<div class="store-card-stat"><span class="n">${s.cold_total}</span><span class="of">/ ${s.total} en frío</span><span class="pct">${fmtPct(s.pct_cold)}</span></div>
+               <div class="split-bar"><span class="seg cmq" style="width:${cmqSegPct}%"></span><span class="seg rest" style="width:${restSegPct}%"></span></div>`
+          }
+        </button>`;
+      }).join('');
+    }
+    grid.querySelectorAll('.store-card').forEach(card => {
+      card.addEventListener('click', () => openDrawer(Number(card.dataset.storeId)));
+    });
+
+    // drawer
+    renderDrawer();
+  }
+
+  function renderDrawer() {
+    const open = state.openStoreId != null;
+    backdrop.classList.toggle('open', open);
+    drawer.classList.toggle('open', open);
+    if (!open) return;
+
+    const storeRows = ALL_ROWS.filter(r => r.store_id === state.openStoreId);
+    const meta = storeRows[0];
+    const coldRows = storeRows.filter(r => r.cold);
+    const cmqCold = coldRows.filter(r => r.is_cmq);
+    const restCold = coldRows.filter(r => !r.is_cmq);
+
+    document.getElementById('drawer-title').textContent = meta.store_name;
+    document.getElementById('drawer-addr').textContent = `${meta.address} · ${meta.province}`;
+
+    document.getElementById('drawer-stats').innerHTML = `
+      <div class="drawer-stat"><div class="n accent">${coldRows.length}</div><div class="l">En frío</div></div>
+      <div class="drawer-stat"><div class="n">${storeRows.length}</div><div class="l">Catálogo total</div></div>
+      <div class="drawer-stat"><div class="n">${cmqCold.length}</div><div class="l">CMQ</div></div>
+      <div class="drawer-stat"><div class="n">${restCold.length}</div><div class="l">Resto</div></div>
+    `;
+
+    const searchLower = state.search.trim().toLowerCase();
+    function matches(r) {
+      if (!searchLower) return true;
+      return (r.name + ' ' + r.brand).toLowerCase().includes(searchLower);
+    }
+    function skuRow(r) {
+      return `<div class="sku-row">
+        <div class="sku-info">
+          <div class="name">${r.name}</div>
+          <div class="meta">${r.brand} · ${r.presentation}</div>
+        </div>
+        <div class="sku-price">${fmtMoney(r.price)}</div>
+      </div>`;
+    }
+
+    const cmqFiltered = cmqCold.filter(matches);
+    const restFiltered = restCold.filter(matches);
+
+    let html = '';
+    html += `<div class="sku-group-title"><span class="dot cmq"></span>CMQ (${cmqFiltered.length})</div>`;
+    html += cmqFiltered.length ? cmqFiltered.map(skuRow).join('') : `<div class="drawer-empty">Sin coincidencias</div>`;
+    html += `<div class="sku-group-title"><span class="dot rest"></span>Resto de marcas (${restFiltered.length})</div>`;
+    html += restFiltered.length ? restFiltered.map(skuRow).join('') : `<div class="drawer-empty">Sin coincidencias</div>`;
+
+    if (!coldRows.length) {
+      html = `<div class="drawer-empty" style="padding:40px 0;">Este local no tiene ningún SKU con badge de frío por el momento.</div>`;
+    }
+
+    document.getElementById('drawer-body').innerHTML = html;
+  }
+
+  function computeGlobalStats() {
+    const cmqRows = ALL_ROWS.filter(r => r.is_cmq);
+    const restRows = ALL_ROWS.filter(r => !r.is_cmq);
+    const coldRows = ALL_ROWS.filter(r => r.cold);
+    const cmqCold = cmqRows.filter(r => r.cold).length;
+    const restCold = restRows.filter(r => r.cold).length;
+    const pctCmq = pct(cmqCold, cmqRows.length);
+    const pctRest = pct(restCold, restRows.length);
+    return {
+      total: ALL_ROWS.length, cmqTotal: cmqRows.length, restTotal: restRows.length,
+      cold: coldRows.length, cmqCold, restCold, pctCmq, pctRest,
+      multiplier: pctRest > 0 ? pctCmq / pctRest : 0,
+    };
+  }
+
+  function computePerStoreMetricStats() {
+    const agg = {};
+    ALL_ROWS.forEach(r => {
+      const s = agg[r.store_id] || (agg[r.store_id] = {
+        store_id: r.store_id, name: r.store_name, province: r.province,
+        total: 0, cmq_total: 0, cold_cmq: 0, cold_rest: 0, cold_total: 0,
+      });
+      s.total++;
+      if (r.is_cmq) { s.cmq_total++; if (r.cold) s.cold_cmq++; }
+      else if (r.cold) s.cold_rest++;
+      if (r.cold) s.cold_total++;
+    });
+    return Object.values(agg).map(s => ({ ...s, pct_cold_cmq: s.cmq_total ? pct(s.cold_cmq, s.cmq_total) : null }));
+  }
+
+  function computePerProvinceMetricStats() {
+    return PROVINCES.map(p => {
+      const rows = ALL_ROWS.filter(r => r.province === p);
+      const cmqRows = rows.filter(r => r.is_cmq);
+      const cold_cmq = cmqRows.filter(r => r.cold).length;
+      return { province: p, cmq_total: cmqRows.length, cold_cmq, pct_cold_cmq: cmqRows.length ? pct(cold_cmq, cmqRows.length) : null };
+    });
+  }
+
+  function computePerBrandColdCounts() {
+    const agg = {};
+    ALL_ROWS.forEach(r => {
+      if (!r.cold) return;
+      const b = agg[r.brand] || (agg[r.brand] = { brand: r.brand, is_cmq: r.is_cmq, count: 0 });
+      b.count++;
+    });
+    return Object.values(agg).sort((a, b) => b.count - a.count);
+  }
+
+  function metricRankRow(i, name, val) {
+    return `<div class="list-row"><span class="rank-n">${i + 1}</span><span class="rank-name">${name}</span><span class="rank-val">${fmtPct(val)}</span></div>`;
+  }
+
+  function metricsGroupA(g) {
+    const cards = [
+      { n: g.cmqTotal, of: g.total, label: 'SKU de CMQ sobre el total', cls: 'accent' },
+      { n: g.cold, of: g.total, label: 'SKU en frío sobre el total (todas las marcas)', cls: 'cold' },
+      { n: g.cmqCold, of: g.cmqTotal, label: 'SKU de CMQ en frío, sobre el total de CMQ', cls: 'accent' },
+      { n: g.restCold, of: g.restTotal, label: 'SKU de competencia en frío, sobre su total', cls: '' },
+    ];
+    const cardsHtml = cards.map(c => `
+      <div class="stat-card">
+        <div class="stat-number ${c.cls}">${fmt(c.n)}<span class="of">de ${fmt(c.of)}</span></div>
+        <div class="stat-sub">${fmtPct(pct(c.n, c.of))}</div>
+        <div class="stat-label">${c.label}</div>
+      </div>`).join('');
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">A · Conteos clave <span class="badge-note">pedido puntual</span></div>
+        <div class="metric-grid">
+          ${cardsHtml}
+          <div class="stat-card accent-ring">
+            <div class="stat-number critical">${fmt(g.cmqNotCold)}</div>
+            <div class="stat-label">SKU de CMQ que no están en frío</div>
+            <div class="stat-explain">La oportunidad concreta: son los que se podrían sumar al frío.</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupB(g) {
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">B · Cobertura general de frío</div>
+        <div class="metric-grid">
+          <div class="stat-card">
+            <div class="stat-number cold">${fmtPct(g.pctGlobalCold)}</div>
+            <div class="stat-label">De todas las cervezas relevadas</div>
+            <div class="stat-explain">Cuántas de todas las marcas, en todos los locales, tienen el badge de frío.</div>
+          </div>
+          <div class="stat-card pair">
+            <div class="pair-half">
+              <div class="stat-number accent">${fmtPct(g.pctCmq)}</div>
+              <div class="stat-label">% en frío — CMQ</div>
+            </div>
+            <div class="pair-half">
+              <div class="stat-number">${fmtPct(g.pctRest)}</div>
+              <div class="stat-label">% en frío — Competencia</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupC(g, brandCounts) {
+    const maxCount = Math.max(...brandCounts.map(b => b.count), 1);
+    const rows = brandCounts.map((b, i) => `
+      <div class="list-row">
+        <span class="rank-n">${i + 1}</span>
+        <span class="rank-name"><span class="dot" style="background:${b.is_cmq ? 'var(--accent)' : 'var(--rest)'}"></span>${b.brand}</span>
+        <span class="rank-bar-wrap"><span class="rank-bar-fill" style="width:${b.count / maxCount * 100}%"></span></span>
+        <span class="rank-val">${b.count}</span>
+      </div>`).join('');
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">C · Composición del frío</div>
+        <div class="metric-grid">
+          <div class="stat-card">
+            <div class="stat-number accent">${fmtPct(g.shareCmqInCold)}</div>
+            <div class="stat-label">Del total en frío es de CMQ</div>
+            <div class="stat-explain">De cada 100 SKU con badge de frío, cuántos le pertenecen a CMQ.</div>
+          </div>
+          <div class="stat-card list-card">
+            <div class="list-card-header"><div class="stat-label">SKU en frío por marca (${brandCounts.length} marcas)</div></div>
+            <div class="list-scroll">${rows}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupD(g) {
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">D · Oportunidad / gap</div>
+        <div class="metric-grid">
+          <div class="stat-card">
+            <div class="stat-number accent">+${g.gapPP.toFixed(1)}<span class="of">pp</span></div>
+            <div class="stat-label">Brecha CMQ vs. competencia</div>
+            <div class="stat-explain">${fmtPct(g.pctCmq)} − ${fmtPct(g.pctRest)}. Equivale a ${g.multiplier.toFixed(1)}× más probabilidad de estar en frío.</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupE(storeStats, provinceStats) {
+    const withCmq = storeStats.filter(s => s.cmq_total > 0);
+    const ranked = [...withCmq].sort((a, b) => b.pct_cold_cmq - a.pct_cold_cmq);
+    const best5 = ranked.slice(0, 5);
+    const worst5 = [...ranked].reverse().slice(0, 5);
+    const zeroCmqCold = withCmq.filter(s => s.cold_cmq === 0).sort((a, b) => a.name.localeCompare(b.name));
+
+    const bestRows = best5.map((s, i) => metricRankRow(i, s.name, s.pct_cold_cmq)).join('');
+    const worstRows = worst5.map((s, i) => metricRankRow(i, s.name, s.pct_cold_cmq)).join('');
+
+    const provRanked = [...provinceStats].filter(p => p.cmq_total > 0).sort((a, b) => b.pct_cold_cmq - a.pct_cold_cmq);
+    const provMax = Math.max(...provRanked.map(p => p.pct_cold_cmq), 1);
+    const provRows = provRanked.map(p => `
+      <div class="list-row">
+        <span class="rank-name">${p.province}</span>
+        <span class="rank-bar-wrap"><span class="rank-bar-fill" style="width:${p.pct_cold_cmq / provMax * 100}%"></span></span>
+        <span class="rank-val">${fmtPct(p.pct_cold_cmq)}</span>
+      </div>`).join('');
+
+    const alertChips = zeroCmqCold.map(s => `<div class="alert-chip">${s.name}<div class="prov">${s.province}</div></div>`).join('');
+
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">E · Por tienda / geografía</div>
+        <div class="metric-grid">
+          <div class="stat-card split-rank">
+            <div class="stat-label">Ranking de darkstores — % frío CMQ</div>
+            <div class="split-rank-cols">
+              <div class="split-rank-col">
+                <div class="split-rank-col-title">Mejores</div>
+                ${bestRows}
+              </div>
+              <div class="split-rank-col worst">
+                <div class="split-rank-col-title">Peores</div>
+                ${worstRows}
+              </div>
+            </div>
+          </div>
+          <div class="stat-card list-card">
+            <div class="stat-label">% frío CMQ por provincia</div>
+            <div class="list-scroll" style="margin-top:8px;">${provRows}</div>
+          </div>
+          <div class="stat-card alert-card">
+            <div class="stat-label">${zeroCmqCold.length} locales con inventario CMQ pero 0% en frío</div>
+            <div class="stat-explain">Tienen SKU de CMQ en el catálogo, pero ninguno con el badge de frío. Alerta operativa directa.</div>
+            <div class="alert-list">${alertChips}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupF(g, storeStats) {
+    const bySize = [...storeStats].sort((a, b) => b.total - a.total);
+    const maxTotal = Math.max(...bySize.map(s => s.total), 1);
+    const rows = bySize.map((s, i) => `
+      <div class="list-row">
+        <span class="rank-n">${i + 1}</span>
+        <span class="rank-name">${s.name}</span>
+        <span class="rank-bar-wrap"><span class="rank-bar-fill" style="width:${s.total / maxTotal * 100}%"></span></span>
+        <span class="rank-val">${fmt(s.total)}</span>
+      </div>`).join('');
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">F · Tamaño de la categoría</div>
+        <div class="metric-grid">
+          <div class="stat-card">
+            <div class="stat-number accent">${fmtPct(g.shareCmqInCatalog)}</div>
+            <div class="stat-label">Share de CMQ sobre el total de cervezas</div>
+            <div class="stat-explain">Estén o no en frío — cuánto pesa CMQ en la góndola en general.</div>
+          </div>
+          <div class="stat-card list-card">
+            <div class="list-card-header"><div class="stat-label">Catálogo total de cervezas por local (${storeStats.length} locales)</div></div>
+            <div class="list-scroll">${rows}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function metricsGroupG(g) {
+    const favorable = g.shareCmqInCold >= g.shareCmqInCatalog;
+    const diff = g.shareCmqInCold - g.shareCmqInCatalog;
+    return `
+      <div class="metric-section">
+        <div class="metric-section-title">G · Share en frío vs. share total</div>
+        <div class="metric-grid">
+          <div class="stat-card pair" style="grid-column:1/-1;">
+            <div class="pair-half">
+              <div class="stat-number">${fmtPct(g.shareCmqInCatalog)}</div>
+              <div class="stat-label">Share CMQ en el catálogo total</div>
+            </div>
+            <div class="pair-half">
+              <div class="stat-number accent">${fmtPct(g.shareCmqInCold)}</div>
+              <div class="stat-label">Share CMQ dentro de lo que está en frío</div>
+            </div>
+          </div>
+          <div class="stat-card" style="grid-column:1/-1;">
+            <span class="verdict-badge ${favorable ? 'favorable' : 'unfavorable'}">${favorable ? '▲ Sobre-representado en frío' : '▼ Sub-representado en frío'} (${favorable ? '+' : ''}${diff.toFixed(1)} pp)</span>
+            <div class="stat-explain" style="margin-top:10px;">${favorable
+        ? 'CMQ tiene más presencia proporcional en frío que en el catálogo general — el frío está funcionando a favor de la marca.'
+        : 'CMQ tiene menos presencia proporcional en frío que en el catálogo general — hay una desventaja relativa a corregir.'}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderMetrics() {
+    const g = computeGlobalStats();
+    g.cmqNotCold = g.cmqTotal - g.cmqCold;
+    g.shareCmqInCold = pct(g.cmqCold, g.cold);
+    g.shareCmqInCatalog = pct(g.cmqTotal, g.total);
+    g.gapPP = g.pctCmq - g.pctRest;
+    g.pctGlobalCold = pct(g.cold, g.total);
+
+    const storeStats = computePerStoreMetricStats();
+    const provinceStats = computePerProvinceMetricStats();
+    const brandColdCounts = computePerBrandColdCounts();
+
+    document.getElementById('metrics-content').innerHTML =
+      metricsGroupA(g) + metricsGroupB(g) + metricsGroupC(g, brandColdCounts) + metricsGroupD(g) +
+      metricsGroupE(storeStats, provinceStats) + metricsGroupF(g, storeStats) + metricsGroupG(g);
+  }
+
+  function renderHistory() {
+    const dates = [...new Set(state.history.map(h => h.date))].sort();
+    const byKey = {};
+    state.history.forEach(h => { byKey[h.date + '|' + h.store_id] = h; });
+
+    const lastDate = dates[dates.length - 1];
+    const storeRows = STORE_IDS.map(sid => ({ sid, meta: STORE_META[sid], last: byKey[lastDate + '|' + sid] }));
+    storeRows.sort((a, b) => (b.last ? b.last.cold_total : -1) - (a.last ? a.last.cold_total : -1));
+
+    document.getElementById('history-thead').innerHTML =
+      `<tr><th class="store-col">Darkstore</th>${dates.map(d => `<th>${formatDateLabel(d)}</th>`).join('')}</tr>`;
+
+    document.getElementById('history-tbody').innerHTML = storeRows.map(({ sid, meta }) => {
+      const cells = dates.map((d, i) => {
+        const cur = byKey[d + '|' + sid];
+        if (!cur) return `<td><span class="hm-empty">—</span></td>`;
+        let trend = '';
+        if (i > 0) {
+          const prev = byKey[dates[i - 1] + '|' + sid];
+          if (prev) {
+            if (cur.cold_total > prev.cold_total) trend = `<span class="hm-trend up">▲</span>`;
+            else if (cur.cold_total < prev.cold_total) trend = `<span class="hm-trend down">▼</span>`;
+            else trend = `<span class="hm-trend flat">–</span>`;
+          }
+        }
+        return `<td><span class="hm-cell"><span class="hm-total">${cur.cold_total}</span><span class="hm-cmq-badge">${cur.cold_cmq} CMQ</span>${trend}</span></td>`;
+      }).join('');
+      return `<tr><td class="store-col"><b>${meta.name}</b><div class="store-col-prov">${meta.province}</div></td>${cells}</tr>`;
+    }).join('');
+
+    document.getElementById('history-date-count').textContent =
+      `${dates.length} relevamiento${dates.length === 1 ? '' : 's'} cargado${dates.length === 1 ? '' : 's'}`;
+  }
+
+  render();
+})();
+</script>
