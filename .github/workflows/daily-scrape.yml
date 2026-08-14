@@ -16,6 +16,7 @@ concurrency:
 jobs:
   scrape-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
@@ -27,6 +28,9 @@ jobs:
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
+
+      - name: Instalar navegador (Chromium) para el scraper
+        run: playwright install --with-deps chromium
 
       - name: Scrapear los 27 darkstores de Rappi Turbo
         run: >

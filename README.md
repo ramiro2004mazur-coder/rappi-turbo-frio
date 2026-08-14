@@ -25,7 +25,8 @@ repositorio → "Scrapeo diario y publicación del dashboard" → **Run workflow
 
 ```
 scraper/
-  scrape_beers.py           scraper de producto (requests, sin browser)
+  scrape_beers.py           scraper de producto (Playwright — hace click en "Ver más" hasta
+                             agotar cada subcategoría, si no se pierden SKU en categorías grandes)
   discover_stores.py        descubre store_id nuevos (Playwright — uso manual, no corre solo)
   build_dashboard_data.py   normaliza marca + clasifica CMQ, arma dashboard_data.json
   build_history_snapshot.py suma el día de hoy a data/history.json
@@ -56,5 +57,4 @@ La lista de los 27 `store_id` vive en dos lugares que hay que mantener
 sincronizados: `scraper/build_dashboard_data.py` (diccionario `STORES`, con
 nombre/dirección/provincia) y el comando `--store-ids` dentro de
 `.github/workflows/daily-scrape.yml`. `scraper/discover_stores.py` sirve para
-volver a descubrir locales por dirección si hace falta (requiere
-`pip install playwright && playwright install chromium`, no se corre solo).
+volver a descubrir locales por dirección si hace falta (no se corre solo).
