@@ -358,5 +358,101 @@
     "store_id": 242531,
     "cold_total": 15,
     "cold_cmq": 11
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 166964,
+    "cold_total": 6,
+    "cold_cmq": 6
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 184221,
+    "cold_total": 10,
+    "cold_cmq": 8
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 184923,
+    "cold_total": 7,
+    "cold_cmq": 7
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 184924,
+    "cold_total": 2,
+    "cold_cmq": 2
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 185340,
+    "cold_total": 1,
+    "cold_cmq": 0
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 185458,
+    "cold_total": 14,
+    "cold_cmq": 14
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 185460,
+    "cold_total": 20,
+    "cold_cmq": 11
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 186262,
+    "cold_total": 4,
+    "cold_cmq": 4
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 186327,
+    "cold_total": 12,
+    "cold_cmq": 12
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 216336,
+    "cold_total": 4,
+    "cold_cmq": 3
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 231868,
+    "cold_total": 1,
+    "cold_cmq": 1
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 231869,
+    "cold_total": 6,
+    "cold_cmq": 6
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 232258,
+    "cold_total": 18,
+    "cold_cmq": 10
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 240042,
+    "cold_total": 53,
+    "cold_cmq": 33
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 242531,
+    "cold_total": 12,
+    "cold_cmq": 8
+  },
+  {
+    "date": "2026-08-17",
+    "store_id": 244576,
+    "cold_total": 1,
+    "cold_cmq": 0
   }
 ]
