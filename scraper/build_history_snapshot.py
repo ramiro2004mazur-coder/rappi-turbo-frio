@@ -34,7 +34,7 @@ def main():
     with open(args.csv, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
-    agg = defaultdict(lambda: {"cold_total": 0, "cold_cmq": 0})
+    agg = defaultdict(lambda: {"cold_total": 0, "cold_cmq": 0, "skus": []})
     for r in rows:
         if r["cold_beer"] != "True":
             continue
@@ -44,9 +44,26 @@ def main():
         agg[store_id]["cold_total"] += 1
         if is_cmq:
             agg[store_id]["cold_cmq"] += 1
+        price = None
+        try:
+            price = float(r["price"]) if r["price"] else None
+        except ValueError:
+            pass
+        agg[store_id]["skus"].append({
+            "product_id": r["product_id"],
+            "name": r["name"],
+            "brand": brand,
+            "is_cmq": is_cmq,
+            "price": price,
+            "presentation": r["presentation"],
+        })
 
     new_entries = [
-        {"date": args.date, "store_id": sid, "cold_total": v["cold_total"], "cold_cmq": v["cold_cmq"]}
+        {
+            "date": args.date, "store_id": sid,
+            "cold_total": v["cold_total"], "cold_cmq": v["cold_cmq"],
+            "skus": v["skus"],
+        }
         for sid, v in sorted(agg.items())
     ]
 

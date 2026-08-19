@@ -404,6 +404,12 @@
   .hm-trend.up { color: var(--good); }
   .hm-trend.down { color: var(--critical); }
   .hm-trend.flat { color: var(--text-3); }
+  .hm-cell-btn {
+    background: none; border: 1px solid transparent; border-radius: 7px; padding: 4px 8px;
+    margin: -4px -8px; cursor: pointer; font-family: inherit;
+  }
+  .hm-cell-btn:hover { border-color: var(--border-strong); background: var(--surface-2); }
+  .hm-cell-btn:disabled { cursor: default; }
 
   @media (max-width: 980px) {
     .main-grid { grid-template-columns: 1fr; }
@@ -479,7 +485,7 @@
     <div id="view-history" class="view" hidden>
       <div class="page-head">
         <h1>Evolución histórica</h1>
-        <p>Un relevamiento por columna, un darkstore por fila. Se actualiza solo todos los días — el botón de abajo es solo para sumar un archivo suelto a mano si hace falta.</p>
+        <p>Un relevamiento por columna, un darkstore por fila. Se actualiza solo todos los días — hacé click en cualquier celda para ver cuáles SKU estaban en frío ese día en ese local. El botón de abajo es solo para sumar un archivo suelto a mano si hace falta.</p>
       </div>
       <div class="history-toolbar">
         <span class="row-count" id="history-date-count"></span>
@@ -562,7 +568,7 @@
   document.getElementById('topbar-sub').textContent = `${N_STORES} darkstores · ${ALL_ROWS.length.toLocaleString('es-AR')} SKU-instancias`;
   document.getElementById('gen-date').textContent = new Date().toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
 
-  const state = { view: 'dashboard', province: 'all', search: '', sort: 'pct_desc', openStoreId: null, brandExpanded: false, history: [] };
+  const state = { view: 'dashboard', province: 'all', search: '', sort: 'pct_desc', openStoreId: null, openHistoryKey: null, brandExpanded: false, history: [] };
 
   function computeTodaySnapshot() {
     const agg = {};
@@ -697,12 +703,13 @@
   // ---- drawer open/close ----
   const backdrop = document.getElementById('backdrop');
   const drawer = document.getElementById('drawer');
-  function openDrawer(storeId) { state.openStoreId = storeId; render(); }
-  function closeDrawer() { state.openStoreId = null; render(); }
+  function openDrawer(storeId) { state.openStoreId = storeId; state.openHistoryKey = null; render(); }
+  function openHistoryDrawer(dateStr, storeId) { state.openHistoryKey = { date: dateStr, storeId }; state.openStoreId = null; render(); }
+  function closeDrawer() { state.openStoreId = null; state.openHistoryKey = null; render(); }
   document.getElementById('drawer-close').addEventListener('click', closeDrawer);
   document.getElementById('drawer-back').addEventListener('click', closeDrawer);
   backdrop.addEventListener('click', closeDrawer);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && state.openStoreId) closeDrawer(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && (state.openStoreId || state.openHistoryKey)) closeDrawer(); });
 
   // ---- helpers ----
   function pct(n, d) { return d ? (100 * n / d) : 0; }
@@ -837,23 +844,40 @@
   }
 
   function renderDrawer() {
-    const open = state.openStoreId != null;
+    const isHistorical = state.openHistoryKey != null;
+    const open = state.openStoreId != null || isHistorical;
     backdrop.classList.toggle('open', open);
     drawer.classList.toggle('open', open);
     if (!open) return;
 
-    const storeRows = ALL_ROWS.filter(r => r.store_id === state.openStoreId);
-    const meta = storeRows[0];
-    const coldRows = storeRows.filter(r => r.cold);
-    const cmqCold = coldRows.filter(r => r.is_cmq);
-    const restCold = coldRows.filter(r => !r.is_cmq);
+    let meta, cmqCold, restCold, totalCatalog, dateLabelSuffix = '';
+
+    if (isHistorical) {
+      const { date: dateStr, storeId } = state.openHistoryKey;
+      const smeta = STORE_META[storeId];
+      const entry = state.history.find(h => h.date === dateStr && h.store_id === storeId);
+      const skus = (entry && entry.skus) || [];
+      meta = { store_name: smeta.name, address: smeta.address, province: smeta.province };
+      cmqCold = skus.filter(s => s.is_cmq);
+      restCold = skus.filter(s => !s.is_cmq);
+      totalCatalog = null; // no tenemos el catálogo total de ese día, solo los que estaban en frío
+      dateLabelSuffix = ` · ${formatDateLabel(dateStr)}`;
+    } else {
+      const storeRows = ALL_ROWS.filter(r => r.store_id === state.openStoreId);
+      meta = storeRows[0];
+      const coldRows = storeRows.filter(r => r.cold);
+      cmqCold = coldRows.filter(r => r.is_cmq);
+      restCold = coldRows.filter(r => !r.is_cmq);
+      totalCatalog = storeRows.length;
+    }
+    const coldCount = cmqCold.length + restCold.length;
 
     document.getElementById('drawer-title').textContent = meta.store_name;
-    document.getElementById('drawer-addr').textContent = `${meta.address} · ${meta.province}`;
+    document.getElementById('drawer-addr').textContent = `${meta.address} · ${meta.province}${dateLabelSuffix}`;
 
     document.getElementById('drawer-stats').innerHTML = `
-      <div class="drawer-stat"><div class="n accent">${coldRows.length}</div><div class="l">En frío</div></div>
-      <div class="drawer-stat"><div class="n">${storeRows.length}</div><div class="l">Catálogo total</div></div>
+      <div class="drawer-stat"><div class="n accent">${coldCount}</div><div class="l">En frío</div></div>
+      ${totalCatalog != null ? `<div class="drawer-stat"><div class="n">${totalCatalog}</div><div class="l">Catálogo total</div></div>` : ''}
       <div class="drawer-stat"><div class="n">${cmqCold.length}</div><div class="l">CMQ</div></div>
       <div class="drawer-stat"><div class="n">${restCold.length}</div><div class="l">Resto</div></div>
     `;
@@ -882,8 +906,8 @@
     html += `<div class="sku-group-title"><span class="dot rest"></span>Resto de marcas (${restFiltered.length})</div>`;
     html += restFiltered.length ? restFiltered.map(skuRow).join('') : `<div class="drawer-empty">Sin coincidencias</div>`;
 
-    if (!coldRows.length) {
-      html = `<div class="drawer-empty" style="padding:40px 0;">Este local no tiene ningún SKU con badge de frío por el momento.</div>`;
+    if (!coldCount) {
+      html = `<div class="drawer-empty" style="padding:40px 0;">${isHistorical ? 'Este local no tenía ningún SKU con badge de frío ese día.' : 'Este local no tiene ningún SKU con badge de frío por el momento.'}</div>`;
     }
 
     document.getElementById('drawer-body').innerHTML = html;
@@ -1180,10 +1204,17 @@
             else trend = `<span class="hm-trend flat">–</span>`;
           }
         }
-        return `<td><span class="hm-cell"><span class="hm-total">${cur.cold_total}</span><span class="hm-cmq-badge">${cur.cold_cmq} CMQ</span>${trend}</span></td>`;
+        const hasSkus = Array.isArray(cur.skus);
+        return `<td><button class="hm-cell-btn" data-date="${d}" data-store-id="${sid}" ${hasSkus ? '' : 'disabled'}>
+          <span class="hm-cell"><span class="hm-total">${cur.cold_total}</span><span class="hm-cmq-badge">${cur.cold_cmq} CMQ</span>${trend}</span>
+        </button></td>`;
       }).join('');
       return `<tr><td class="store-col"><b>${meta.name}</b><div class="store-col-prov">${meta.province}</div></td>${cells}</tr>`;
     }).join('');
+
+    document.querySelectorAll('.hm-cell-btn:not([disabled])').forEach(btn => {
+      btn.addEventListener('click', () => openHistoryDrawer(btn.dataset.date, Number(btn.dataset.storeId)));
+    });
 
     document.getElementById('history-date-count').textContent =
       `${dates.length} relevamiento${dates.length === 1 ? '' : 's'} cargado${dates.length === 1 ? '' : 's'}`;
