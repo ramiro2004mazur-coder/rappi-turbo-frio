@@ -19992,8 +19992,8 @@
   {
     "date": "2026-08-31",
     "store_id": 166964,
-    "cold_total": 12,
-    "cold_cmq": 11,
+    "cold_total": 7,
+    "cold_cmq": 6,
     "skus": [
       {
         "product_id": "2539095",
@@ -20044,46 +20044,6 @@
         "presentation": "1 X 473 mL"
       },
       {
-        "product_id": "2114318535",
-        "name": "Corona Cerveza",
-        "brand": "Corona",
-        "is_cmq": true,
-        "price": 3854.25,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469353",
-        "name": "Cerveza Patagonia 24.7 473 cc",
-        "brand": "Patagonia",
-        "is_cmq": true,
-        "price": 4281.75,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469389",
-        "name": "Cerveza Quilmes Clásica 473 cc",
-        "brand": "Quilmes",
-        "is_cmq": true,
-        "price": 2129.25,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469339",
-        "name": "Cerveza Andes Origen Rubia 473 cc",
-        "brand": "Andes",
-        "is_cmq": true,
-        "price": 2751.75,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114083630",
-        "name": "Cerveza Andes Origen Rubia 710 cc",
-        "brand": "Andes",
-        "is_cmq": true,
-        "price": 3307.85,
-        "presentation": "1 X 710 mL"
-      },
-      {
         "product_id": "2482853",
         "name": "Cerveza Quilmes Stout 473 cc",
         "brand": "Quilmes",
@@ -20096,8 +20056,8 @@
   {
     "date": "2026-08-31",
     "store_id": 184221,
-    "cold_total": 19,
-    "cold_cmq": 13,
+    "cold_total": 10,
+    "cold_cmq": 7,
     "skus": [
       {
         "product_id": "1074739728",
@@ -20178,86 +20138,14 @@
         "is_cmq": false,
         "price": 2888.1,
         "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114084532",
-        "name": "Cerveza Stella Artois 0% 473 cc",
-        "brand": "Stella Artois",
-        "is_cmq": true,
-        "price": 2804.25,
-        "presentation": "1 x 473 mL"
-      },
-      {
-        "product_id": "2482855",
-        "name": "Cerveza Brahma Chopp 473 cc",
-        "brand": "Brahma",
-        "is_cmq": true,
-        "price": 2241.75,
-        "presentation": "1 X 473.0 mL"
-      },
-      {
-        "product_id": "2469547",
-        "name": "Cerveza Budweiser 473 cc",
-        "brand": "Budweiser",
-        "is_cmq": true,
-        "price": 2459.25,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "1074392810",
-        "name": "Pampa Brewing Cerveza Honey Lata 473 ml",
-        "brand": "Pampa",
-        "is_cmq": false,
-        "price": 2693.65,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114887563",
-        "name": "Brahma Cerveza Chopp",
-        "brand": "Brahma",
-        "is_cmq": true,
-        "price": 3016.3,
-        "presentation": "710 mL"
-      },
-      {
-        "product_id": "2114833047",
-        "name": "Santa Fe Cerveza Rubia",
-        "brand": "Santa Fe",
-        "is_cmq": false,
-        "price": 2959.0,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114579895",
-        "name": "Bitburger Cerveza",
-        "brand": "Bitburger",
-        "is_cmq": false,
-        "price": 5649.0,
-        "presentation": "1 X 500 mL"
-      },
-      {
-        "product_id": "2114084425",
-        "name": "Michelob Cerveza Light Ultra",
-        "brand": "Michelob Ultra",
-        "is_cmq": true,
-        "price": 2535.2,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2112096354",
-        "name": "Cerveza Corona 410 cc",
-        "brand": "Corona",
-        "is_cmq": true,
-        "price": 4829.25,
-        "presentation": "1 X 410 mL"
       }
     ]
   },
   {
     "date": "2026-08-31",
     "store_id": 184923,
-    "cold_total": 8,
-    "cold_cmq": 8,
+    "cold_total": 7,
+    "cold_cmq": 7,
     "skus": [
       {
         "product_id": "2539095",
@@ -20314,14 +20202,6 @@
         "is_cmq": true,
         "price": 2241.75,
         "presentation": "1 X 473.0 mL"
-      },
-      {
-        "product_id": "2469420",
-        "name": "Stella Artois Cerveza Rubia",
-        "brand": "Stella Artois",
-        "is_cmq": true,
-        "price": 3456.75,
-        "presentation": "1 X 473 mL"
       }
     ]
   },
@@ -20400,8 +20280,8 @@
   {
     "date": "2026-08-31",
     "store_id": 185458,
-    "cold_total": 11,
-    "cold_cmq": 11,
+    "cold_total": 12,
+    "cold_cmq": 12,
     "skus": [
       {
         "product_id": "2539095",
@@ -20484,20 +20364,28 @@
         "presentation": "1 x 473 mL"
       },
       {
-        "product_id": "2112096354",
-        "name": "Cerveza Corona 410 cc",
-        "brand": "Corona",
+        "product_id": "2482855",
+        "name": "Cerveza Brahma Chopp 473 cc",
+        "brand": "Brahma",
         "is_cmq": true,
-        "price": 4829.25,
-        "presentation": "1 X 410 mL"
+        "price": 2241.75,
+        "presentation": "1 X 473.0 mL"
+      },
+      {
+        "product_id": "2469547",
+        "name": "Cerveza Budweiser 473 cc",
+        "brand": "Budweiser",
+        "is_cmq": true,
+        "price": 2459.25,
+        "presentation": "1 X 473 mL"
       }
     ]
   },
   {
     "date": "2026-08-31",
     "store_id": 185460,
-    "cold_total": 16,
-    "cold_cmq": 10,
+    "cold_total": 10,
+    "cold_cmq": 8,
     "skus": [
       {
         "product_id": "2482872",
@@ -20578,62 +20466,14 @@
         "is_cmq": true,
         "price": 4139.25,
         "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469353",
-        "name": "Cerveza Patagonia 24.7 473 cc",
-        "brand": "Patagonia",
-        "is_cmq": true,
-        "price": 4041.75,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114083629",
-        "name": "Cerveza Patagonia Vera Ipa 473 cc",
-        "brand": "Patagonia",
-        "is_cmq": true,
-        "price": 2619.5,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "1074485103",
-        "name": "Imperial Cerveza Lager Dorada Lata 710ml",
-        "brand": "Imperial",
-        "is_cmq": false,
-        "price": 3307.85,
-        "presentation": "1 X 710 mL"
-      },
-      {
-        "product_id": "2469589",
-        "name": "Imperial Cerveza Extra Lager",
-        "brand": "Imperial",
-        "is_cmq": false,
-        "price": 2505.3,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2533062",
-        "name": "Imperial Cerveza Ligera Golden",
-        "brand": "Imperial",
-        "is_cmq": false,
-        "price": 2505.3,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114434307",
-        "name": "Antares Cerveza Lager",
-        "brand": "Antares",
-        "is_cmq": false,
-        "price": 2862.3,
-        "presentation": "1 x 473 mL"
       }
     ]
   },
   {
     "date": "2026-08-31",
     "store_id": 186262,
-    "cold_total": 5,
-    "cold_cmq": 5,
+    "cold_total": 4,
+    "cold_cmq": 4,
     "skus": [
       {
         "product_id": "2539095",
@@ -20666,22 +20506,14 @@
         "is_cmq": true,
         "price": 2535.2,
         "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469420",
-        "name": "Stella Artois Cerveza Rubia",
-        "brand": "Stella Artois",
-        "is_cmq": true,
-        "price": 3396.75,
-        "presentation": "1 X 473 mL"
       }
     ]
   },
   {
     "date": "2026-08-31",
     "store_id": 186327,
-    "cold_total": 7,
-    "cold_cmq": 7,
+    "cold_total": 12,
+    "cold_cmq": 12,
     "skus": [
       {
         "product_id": "2539095",
@@ -20738,14 +20570,54 @@
         "is_cmq": true,
         "price": 3299.25,
         "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114084425",
+        "name": "Michelob Cerveza Light Ultra",
+        "brand": "Michelob Ultra",
+        "is_cmq": true,
+        "price": 2455.2,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114629803",
+        "name": "Stella Artois Cerveza",
+        "brand": "Stella Artois",
+        "is_cmq": true,
+        "price": 3261.75,
+        "presentation": "1 x 330 mL"
+      },
+      {
+        "product_id": "2469547",
+        "name": "Cerveza Budweiser 473 cc",
+        "brand": "Budweiser",
+        "is_cmq": true,
+        "price": 2286.75,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114084532",
+        "name": "Cerveza Stella Artois 0% 473 cc",
+        "brand": "Stella Artois",
+        "is_cmq": true,
+        "price": 2751.75,
+        "presentation": "1 x 473 mL"
+      },
+      {
+        "product_id": "2115034643",
+        "name": "Michelob Ultra Cerveza",
+        "brand": "Michelob Ultra",
+        "is_cmq": true,
+        "price": 2743.2,
+        "presentation": "1 x 275 mL"
       }
     ]
   },
   {
     "date": "2026-08-31",
     "store_id": 216336,
-    "cold_total": 4,
-    "cold_cmq": 3,
+    "cold_total": 5,
+    "cold_cmq": 4,
     "skus": [
       {
         "product_id": "2469409",
@@ -20772,6 +20644,14 @@
         "presentation": "1 X 730 mL"
       },
       {
+        "product_id": "2115070698",
+        "name": "Cerveza Brahma Chopp Lata 354mlx1",
+        "brand": "Brahma",
+        "is_cmq": true,
+        "price": 1819.0,
+        "presentation": "1 X 354 mL"
+      },
+      {
         "product_id": "2469389",
         "name": "Cerveza Quilmes Clásica 473 cc",
         "brand": "Quilmes",
@@ -20784,8 +20664,8 @@
   {
     "date": "2026-08-31",
     "store_id": 231868,
-    "cold_total": 2,
-    "cold_cmq": 2,
+    "cold_total": 1,
+    "cold_cmq": 1,
     "skus": [
       {
         "product_id": "2482871",
@@ -20794,14 +20674,6 @@
         "is_cmq": true,
         "price": 3734.25,
         "presentation": "1 X 330.0 mL"
-      },
-      {
-        "product_id": "2114481637",
-        "name": "Cerveza Patagonia Lager Del Sur 473 cc",
-        "brand": "Patagonia",
-        "is_cmq": true,
-        "price": 4244.25,
-        "presentation": "1 X 473 mL"
       }
     ]
   },
@@ -20864,8 +20736,8 @@
   {
     "date": "2026-08-31",
     "store_id": 232258,
-    "cold_total": 11,
-    "cold_cmq": 6,
+    "cold_total": 15,
+    "cold_cmq": 9,
     "skus": [
       {
         "product_id": "1074392819",
@@ -20908,6 +20780,46 @@
         "presentation": "1 X 473 mL"
       },
       {
+        "product_id": "2114263234",
+        "name": "Miller Cerveza Genuine Draft en Lata",
+        "brand": "Miller",
+        "is_cmq": false,
+        "price": 5065.15,
+        "presentation": "1 X 710 mL"
+      },
+      {
+        "product_id": "2482855",
+        "name": "Cerveza Brahma Chopp 473 cc",
+        "brand": "Brahma",
+        "is_cmq": true,
+        "price": 2241.75,
+        "presentation": "1 X 473.0 mL"
+      },
+      {
+        "product_id": "2114084425",
+        "name": "Michelob Cerveza Light Ultra",
+        "brand": "Michelob Ultra",
+        "is_cmq": true,
+        "price": 2471.2,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2469353",
+        "name": "Cerveza Patagonia 24.7 473 cc",
+        "brand": "Patagonia",
+        "is_cmq": true,
+        "price": 4199.25,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2482833",
+        "name": "Grolsch Cerveza Pilsner",
+        "brand": "Grolsch",
+        "is_cmq": false,
+        "price": 4509.0,
+        "presentation": "1 X 473 mL"
+      },
+      {
         "product_id": "2114481637",
         "name": "Cerveza Patagonia Lager Del Sur 473 cc",
         "brand": "Patagonia",
@@ -20924,20 +20836,12 @@
         "presentation": "473 mL"
       },
       {
-        "product_id": "2482833",
-        "name": "Grolsch Cerveza Pilsner",
-        "brand": "Grolsch",
+        "product_id": "2115096845",
+        "name": "Cerveza Pampa Lager Lata 473ml",
+        "brand": "Pampa",
         "is_cmq": false,
-        "price": 4509.0,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114263234",
-        "name": "Miller Cerveza Genuine Draft en Lata",
-        "brand": "Miller",
-        "is_cmq": false,
-        "price": 5065.15,
-        "presentation": "1 X 710 mL"
+        "price": 1805.4,
+        "presentation": "1 x 473 mL"
       },
       {
         "product_id": "2482853",
@@ -20960,8 +20864,8 @@
   {
     "date": "2026-08-31",
     "store_id": 240042,
-    "cold_total": 40,
-    "cold_cmq": 22,
+    "cold_total": 47,
+    "cold_cmq": 28,
     "skus": [
       {
         "product_id": "2539095",
@@ -21140,28 +21044,20 @@
         "presentation": "1 X 473 mL"
       },
       {
-        "product_id": "2528354",
-        "name": "Cerveza Quilmes 0% 473 cc",
-        "brand": "Quilmes",
-        "is_cmq": true,
-        "price": 1651.3,
+        "product_id": "2482833",
+        "name": "Grolsch Cerveza Pilsner",
+        "brand": "Grolsch",
+        "is_cmq": false,
+        "price": 4509.0,
         "presentation": "1 X 473 mL"
       },
       {
-        "product_id": "2115034643",
-        "name": "Michelob Ultra Cerveza",
-        "brand": "Michelob Ultra",
-        "is_cmq": true,
-        "price": 3351.2,
-        "presentation": "1 x 275 mL"
-      },
-      {
-        "product_id": "2114629803",
-        "name": "Stella Artois Cerveza",
+        "product_id": "2114825038",
+        "name": "Stella Artois Cerveza 0%",
         "brand": "Stella Artois",
         "is_cmq": true,
-        "price": 3261.75,
-        "presentation": "1 x 330 mL"
+        "price": 2519.3,
+        "presentation": "1 X 330 mL"
       },
       {
         "product_id": "2114084426",
@@ -21180,75 +21076,11 @@
         "presentation": "1 X 473 mL"
       },
       {
-        "product_id": "2114871768",
-        "name": "Cerveza Guinness Hop House",
-        "brand": "Guinness",
-        "is_cmq": false,
-        "price": 3339.65,
-        "presentation": "473 mL"
-      },
-      {
-        "product_id": "2533061",
-        "name": "Imperial Apa Cerveza American Pale Ale Rubia",
-        "brand": "Imperial",
-        "is_cmq": false,
-        "price": 2652.3,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2114629634",
-        "name": "Miller Cerveza Rubia",
-        "brand": "Miller",
-        "is_cmq": false,
-        "price": 6479.0,
-        "presentation": "1 X 600 mL"
-      },
-      {
-        "product_id": "2114631084",
-        "name": "Blue Moon Cerveza Belgian White",
-        "brand": "Blue Moon",
-        "is_cmq": false,
-        "price": 5889.0,
-        "presentation": "1 x 355 cc"
-      },
-      {
-        "product_id": "2114869743",
-        "name": "Imperial Cerveza Sin Alcohol Golden",
-        "brand": "Imperial",
-        "is_cmq": false,
-        "price": 1552.85,
-        "presentation": "1 x 473 cc"
-      },
-      {
-        "product_id": "2482874",
-        "name": "Heineken Cerveza Original",
-        "brand": "Heineken",
-        "is_cmq": false,
-        "price": 4889.0,
-        "presentation": "1 X 330 mL"
-      },
-      {
-        "product_id": "2114887563",
-        "name": "Brahma Cerveza Chopp",
-        "brand": "Brahma",
+        "product_id": "2114083629",
+        "name": "Cerveza Patagonia Vera Ipa 473 cc",
+        "brand": "Patagonia",
         "is_cmq": true,
-        "price": 2897.3,
-        "presentation": "710 mL"
-      },
-      {
-        "product_id": "2114825038",
-        "name": "Stella Artois Cerveza 0%",
-        "brand": "Stella Artois",
-        "is_cmq": true,
-        "price": 2519.3,
-        "presentation": "1 X 330 mL"
-      },
-      {
-        "product_id": "2482833",
-        "name": "Grolsch Cerveza Pilsner",
-        "brand": "Grolsch",
-        "is_cmq": false,
-        "price": 4509.0,
+        "price": 2619.5,
         "presentation": "1 X 473 mL"
       },
       {
@@ -21266,6 +21098,134 @@
         "is_cmq": false,
         "price": 3855.2,
         "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114083630",
+        "name": "Cerveza Andes Origen Rubia 710 cc",
+        "brand": "Andes",
+        "is_cmq": true,
+        "price": 3210.35,
+        "presentation": "1 X 710 mL"
+      },
+      {
+        "product_id": "2528354",
+        "name": "Cerveza Quilmes 0% 473 cc",
+        "brand": "Quilmes",
+        "is_cmq": true,
+        "price": 1651.3,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2533061",
+        "name": "Imperial Apa Cerveza American Pale Ale Rubia",
+        "brand": "Imperial",
+        "is_cmq": false,
+        "price": 2652.3,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114887563",
+        "name": "Brahma Cerveza Chopp",
+        "brand": "Brahma",
+        "is_cmq": true,
+        "price": 2897.3,
+        "presentation": "710 mL"
+      },
+      {
+        "product_id": "2114914425",
+        "name": "Cerveza Quilmes Bajo Cero",
+        "brand": "Quilmes",
+        "is_cmq": true,
+        "price": 1759.0,
+        "presentation": "473 mL"
+      },
+      {
+        "product_id": "2114869743",
+        "name": "Imperial Cerveza Sin Alcohol Golden",
+        "brand": "Imperial",
+        "is_cmq": false,
+        "price": 1552.85,
+        "presentation": "1 x 473 cc"
+      },
+      {
+        "product_id": "2115034643",
+        "name": "Michelob Ultra Cerveza",
+        "brand": "Michelob Ultra",
+        "is_cmq": true,
+        "price": 3351.2,
+        "presentation": "1 x 275 mL"
+      },
+      {
+        "product_id": "2114631084",
+        "name": "Blue Moon Cerveza Belgian White",
+        "brand": "Blue Moon",
+        "is_cmq": false,
+        "price": 5889.0,
+        "presentation": "1 x 355 cc"
+      },
+      {
+        "product_id": "2114629803",
+        "name": "Stella Artois Cerveza",
+        "brand": "Stella Artois",
+        "is_cmq": true,
+        "price": 3261.75,
+        "presentation": "1 x 330 mL"
+      },
+      {
+        "product_id": "2114549144",
+        "name": "Cerveza Quilmes Clásica 710 cc",
+        "brand": "Quilmes",
+        "is_cmq": true,
+        "price": 2736.3,
+        "presentation": "1 X 710 mL"
+      },
+      {
+        "product_id": "2111346548",
+        "name": "1890 Cerveza Rubia",
+        "brand": "1890",
+        "is_cmq": true,
+        "price": 2409.0,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114629634",
+        "name": "Miller Cerveza Rubia",
+        "brand": "Miller",
+        "is_cmq": false,
+        "price": 6479.0,
+        "presentation": "1 X 600 mL"
+      },
+      {
+        "product_id": "2114871768",
+        "name": "Cerveza Guinness Hop House",
+        "brand": "Guinness",
+        "is_cmq": false,
+        "price": 3339.65,
+        "presentation": "473 mL"
+      },
+      {
+        "product_id": "2115070698",
+        "name": "Cerveza Brahma Chopp Lata 354mlx1",
+        "brand": "Brahma",
+        "is_cmq": true,
+        "price": 1819.0,
+        "presentation": "1 X 354 mL"
+      },
+      {
+        "product_id": "1074485103",
+        "name": "Imperial Cerveza Lager Dorada Lata 710ml",
+        "brand": "Imperial",
+        "is_cmq": false,
+        "price": 3307.85,
+        "presentation": "1 X 710 mL"
+      },
+      {
+        "product_id": "2482874",
+        "name": "Heineken Cerveza Original",
+        "brand": "Heineken",
+        "is_cmq": false,
+        "price": 4889.0,
+        "presentation": "1 X 330 mL"
       },
       {
         "product_id": "2482853",
@@ -21356,44 +21316,12 @@
         "presentation": "1 X 473 mL"
       },
       {
-        "product_id": "2115034643",
-        "name": "Michelob Ultra Cerveza",
-        "brand": "Michelob Ultra",
-        "is_cmq": true,
-        "price": 3351.2,
-        "presentation": "1 x 275 mL"
-      },
-      {
-        "product_id": "2114887563",
-        "name": "Brahma Cerveza Chopp",
+        "product_id": "2482855",
+        "name": "Cerveza Brahma Chopp 473 cc",
         "brand": "Brahma",
         "is_cmq": true,
-        "price": 2897.3,
-        "presentation": "710 mL"
-      },
-      {
-        "product_id": "2114970867",
-        "name": "Asahi Cerveza Dry",
-        "brand": "Asahi",
-        "is_cmq": false,
-        "price": 5879.0,
-        "presentation": "1 x 330 cc"
-      },
-      {
-        "product_id": "2114481637",
-        "name": "Cerveza Patagonia Lager Del Sur 473 cc",
-        "brand": "Patagonia",
-        "is_cmq": true,
-        "price": 4206.75,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2115002412",
-        "name": "Corona Cerveza 0.0",
-        "brand": "Corona",
-        "is_cmq": true,
-        "price": 2526.3,
-        "presentation": "473 mL"
+        "price": 2174.25,
+        "presentation": "1 X 473.0 mL"
       },
       {
         "product_id": "2114629949",
@@ -21404,6 +21332,46 @@
         "presentation": "1 X 473 mL"
       },
       {
+        "product_id": "2114481637",
+        "name": "Cerveza Patagonia Lager Del Sur 473 cc",
+        "brand": "Patagonia",
+        "is_cmq": true,
+        "price": 4206.75,
+        "presentation": "1 X 473 mL"
+      },
+      {
+        "product_id": "2114887563",
+        "name": "Brahma Cerveza Chopp",
+        "brand": "Brahma",
+        "is_cmq": true,
+        "price": 2897.3,
+        "presentation": "710 mL"
+      },
+      {
+        "product_id": "2114549144",
+        "name": "Cerveza Quilmes Clásica 710 cc",
+        "brand": "Quilmes",
+        "is_cmq": true,
+        "price": 2736.3,
+        "presentation": "1 X 710 mL"
+      },
+      {
+        "product_id": "2114970867",
+        "name": "Asahi Cerveza Dry",
+        "brand": "Asahi",
+        "is_cmq": false,
+        "price": 5879.0,
+        "presentation": "1 x 330 cc"
+      },
+      {
+        "product_id": "2115002412",
+        "name": "Corona Cerveza 0.0",
+        "brand": "Corona",
+        "is_cmq": true,
+        "price": 2526.3,
+        "presentation": "473 mL"
+      },
+      {
         "product_id": "2115151512",
         "name": "Estrella Damm Cerveza",
         "brand": "Estrella Damm",
@@ -21412,20 +21380,12 @@
         "presentation": "1 X 500 mL"
       },
       {
-        "product_id": "2482853",
-        "name": "Cerveza Quilmes Stout 473 cc",
-        "brand": "Quilmes",
+        "product_id": "2115034643",
+        "name": "Michelob Ultra Cerveza",
+        "brand": "Michelob Ultra",
         "is_cmq": true,
-        "price": 2091.75,
-        "presentation": "1 X 473 mL"
-      },
-      {
-        "product_id": "2469437",
-        "name": "Cerveza Stella Artois Noire 473 cc",
-        "brand": "Stella Artois",
-        "is_cmq": true,
-        "price": 3179.25,
-        "presentation": "1 X 473 mL"
+        "price": 3351.2,
+        "presentation": "1 x 275 mL"
       }
     ]
   },
