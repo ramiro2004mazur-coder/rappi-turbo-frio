@@ -1,19 +1,19 @@
 store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presentation,price,in_stock,category_name,cold_beer
-166964,,2115096845,166964_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1504.5,True,Cervezas,False
-166964,,2539095,166964_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,True
-166964,,2482872,166964_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3939,True,Cervezas,True
-166964,,1074483987,166964_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4850.3,True,Cervezas,True
-166964,,2469372,166964_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3674.25,True,Cervezas,False
+166964,,2115096845,166964_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,False
+166964,,2539095,166964_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,True
+166964,,2482872,166964_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3151.2,True,Cervezas,True
+166964,,2469372,166964_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3704.25,True,Cervezas,True
 166964,,2114629800,166964_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2610.3,True,Cervezas,False
-166964,,2482855,166964_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1955.85,True,Cervezas,True
+166964,,2482855,166964_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,True
 166964,,2482871,166964_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3392.35,True,Cervezas,False
-166964,,2114083629,166964_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3989.3,True,Cervezas,False
+166964,,2114083629,166964_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4844.15,True,Cervezas,False
 166964,,2114914425,166964_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1829,True,Cervezas,True
-166964,,2114084425,166964_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2274.35,True,Cervezas,True
-166964,,2469547,166964_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2033.85,True,Cervezas,True
-166964,,2113858946,166964_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,True
-166964,,2115070698,166964_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2030.65,True,Cervezas,True
-166964,,2114083630,166964_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,5249,True,Cervezas,True
+166964,,2114084425,166964_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3549,True,Cervezas,True
+166964,,2469547,166964_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,True
+166964,,2113858946,166964_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,True
+166964,,2115070698,166964_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2389,True,Cervezas,True
+166964,,2114083630,166964_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,True
+166964,,2469420,166964_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,True
 166964,,2111346558,166964_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5991.75,True,Cervezas,False
 166964,,2469409,166964_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,True
 166964,,1074392807,166964_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3645.65,True,Cervezas,False
@@ -31,39 +31,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 166964,,2469437,166964_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
 166964,,2482873,166964_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4079,True,Cervezas,False
 166964,,2114869440,166964_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3093.15,True,Cervezas,False
-166964,,2469420,166964_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,True
-166964,,2114549144,166964_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2761.85,True,Cervezas,False
-166964,,2114549076,166964_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
-166964,,2114318537,166964_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2291.4,True,Cervezas,False
-166964,,2482874,166964_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
-166964,,2482879,166964_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3219,True,Cervezas,False
-166964,,2114120281,166964_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-166964,,1074392827,166964_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2379.5,True,Cervezas,False
-166964,,2114629634,166964_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,3810.95,True,Cervezas,False
-166964,,2114641639,166964_2114641639,0,6 x Salta Cautiva Session 473 mL,,,15661.8,True,Cervezas,False
-166964,,2114632984,166964_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,27076,True,Cervezas,False
-166964,,2114633462,166964_2114633462,0,6 x Stella Artois Porrón 330 mL,,,27414,True,Cervezas,False
-166964,,2114272836,166964_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
-166964,,2114272864,166964_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17719.8,True,Cervezas,False
-166964,,2114641635,166964_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
-166964,,2114272839,166964_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,14154,True,Cervezas,False
-166964,,2114649584,166964_2114649584,0,4 x Quilmes Clásica 710 mL,,,16996,True,Cervezas,False
-166964,,2114272842,166964_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,33774,True,Cervezas,False
-166964,,2114272853,166964_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19314,True,Cervezas,False
-166964,,2114272857,166964_2114272857,0,6 x Sixpack Miller Cerveza,,,13790.7,True,Cervezas,False
-166964,,2114641631,166964_2114641631,0,6 x Heineken Rubia 710 mL,,,29101.8,True,Cervezas,False
-166964,,2114272858,166964_2114272858,0,6 x Sixpack Schneider Cerveza Rubia,,,18414,True,Cervezas,False
-166964,,2114656367,166964_2114656367,0,6 x Corona 473 mL,,,31734,True,Cervezas,False
-166964,,2114632986,166964_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33834,True,Cervezas,False
-166964,,2114272851,166964_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,15050.1,True,Cervezas,False
-166964,,2114633688,166964_2114633688,0,6 x Imperial APA 47 3mL,,,15206.1,True,Cervezas,False
-166964,,2114272860,166964_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-166964,,2114272827,166964_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23634,True,Cervezas,False
-166964,,2114632983,166964_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20996,True,Cervezas,False
-166964,,2114272843,166964_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,33774,True,Cervezas,False
-166964,,2114272830,166964_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
-166964,,2114272844,166964_2114272844,0,6 x Patagonia Vera Ipa,,,34194,True,Cervezas,False
-166964,,2114632982,166964_2114632982,0,4 x Budweiser 710 mL,,,18796,True,Cervezas,False
 166964,,2115351918,166964_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2361.75,True,Cervezas,False
 166964,,2115356155,166964_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2084.5,True,Cervezas,False
 166964,,2115421806,166964_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
@@ -78,7 +45,7 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 184221,,2482871,184221_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3353.35,True,Cervezas,False
 184221,,2469389,184221_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,True
 184221,,2114083629,184221_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
-184221,,2114914425,184221_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1299,True,Cervezas,True
+184221,,2114914425,184221_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1299,True,Cervezas,False
 184221,,2114084425,184221_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3549,True,Cervezas,True
 184221,,2469547,184221_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,True
 184221,,2113858946,184221_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,True
@@ -98,29 +65,31 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 184221,,2111346555,184221_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3036.75,True,Cervezas,False
 184221,,2469437,184221_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
 184221,,2114869440,184221_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3203.65,True,Cervezas,True
+184221,,2115070698,184221_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2309,True,Cervezas,True
+184221,,2114083630,184221_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,True
+184221,,2469420,184221_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,True
+184221,,2114549144,184221_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
+184221,,2114549076,184221_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
 184221,,2114318537,184221_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3769,True,Cervezas,False
-184221,,2528354,184221_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1651.3,True,Cervezas,True
-184221,,2114084532,184221_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,True
-184221,,2114869743,184221_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
-184221,,2115002412,184221_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
-184221,,2115129133,184221_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
-184221,,2114825038,184221_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3769,True,Cervezas,False
-184221,,2114013445,184221_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
-184923,,2469339,184923_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,True
-184923,,2115096845,184923_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,False
-184923,,2539095,184923_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
-184923,,2482872,184923_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3191.2,True,Cervezas,True
+184221,,2482879,184221_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
+184221,,2114120281,184221_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
+184221,,1074392827,184221_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,4096.15,True,Cervezas,False
+184221,,2114926558,184221_2114926558,953712,Cerveza Lager Estrella Del Sur Lata,,500 mL,1759,True,Cervezas,True
+184923,,2469339,184923_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,True
+184923,,2115096845,184923_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1504.5,True,Cervezas,False
+184923,,2539095,184923_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
+184923,,2482872,184923_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3989,True,Cervezas,True
 184923,,1074483987,184923_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4913.3,True,Cervezas,False
 184923,,2469372,184923_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3629.25,True,Cervezas,False
-184923,,2114629800,184923_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
-184923,,2482855,184923_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,True
+184923,,2482855,184923_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1955.85,True,Cervezas,True
 184923,,2482871,184923_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3353.35,True,Cervezas,False
-184923,,2469389,184923_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,False
-184923,,2114083629,184923_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
-184923,,2114084425,184923_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3499,True,Cervezas,True
-184923,,2469547,184923_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,True
-184923,,2113858946,184923_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,False
-184923,,2115070698,184923_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2309,True,Cervezas,False
+184923,,2469389,184923_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1697.4,True,Cervezas,False
+184923,,2114083629,184923_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3940.3,True,Cervezas,False
+184923,,2114914425,184923_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1319,True,Cervezas,False
+184923,,2114084425,184923_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2274.35,True,Cervezas,True
+184923,,2469547,184923_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2033.85,True,Cervezas,True
+184923,,2113858946,184923_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,False
+184923,,2115070698,184923_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,1962.65,True,Cervezas,False
 184923,,2111346558,184923_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5991.75,True,Cervezas,False
 184923,,2469409,184923_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,False
 184923,,2482851,184923_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6391.2,True,Cervezas,False
@@ -133,35 +102,68 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 184923,,1074392811,184923_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3387.3,False,Cervezas,False
 184923,,2533056,184923_2533056,363386,Cerveza Temple Scottish 473 cc,Temple,1 X 473 mL,4389,False,Cervezas,False
 184923,,2114263236,184923_2114263236,616408,Imperial Cerveza Sin Alcohol Roja,Imperial,1 X 355 mL,1399,False,Cervezas,False
-184923,,2482853,184923_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2064.3,True,Cervezas,False
-184923,,2111346555,184923_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3999,True,Cervezas,False
-184923,,2469437,184923_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,False
-184923,,2482873,184923_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2605.85,True,Cervezas,False
-184923,,2114914425,184923_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1319,True,Cervezas,False
-184923,,2114083630,184923_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,False
-184923,,2469420,184923_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
-184923,,2114549144,184923_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
-184923,,2114549076,184923_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
-184923,,2114318537,184923_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3819,True,Cervezas,True
+184923,,2482853,184923_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2359.2,True,Cervezas,False
+184923,,1074804154,184923_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4036.65,True,Cervezas,False
+184923,,2111346555,184923_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2999.25,True,Cervezas,False
+184923,,2469437,184923_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
+184923,,2482873,184923_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
+184923,,2114629800,184923_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
+184923,,2114083630,184923_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,5249,True,Cervezas,False
+184923,,2469420,184923_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,False
+184923,,2114549144,184923_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2729.35,True,Cervezas,False
+184923,,2114549076,184923_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
+184923,,2114318537,184923_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2291.4,True,Cervezas,True
 184923,,2482874,184923_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
 184923,,2114120281,184923_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-184923,,1074392827,184923_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,4045.15,True,Cervezas,False
-184923,,2114629634,184923_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6919,True,Cervezas,False
-184924,,2469339,184924_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2511.75,True,Cervezas,True
-184924,,2115096845,184924_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1781.4,True,Cervezas,False
-184924,,2539095,184924_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
-184924,,2482872,184924_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3151.2,True,Cervezas,True
+184923,,1074392827,184923_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2379.5,True,Cervezas,False
+184923,,2114629634,184923_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,3810.95,True,Cervezas,False
+184923,,2114633685,184923_2114633685,0,6 x Imperial Roja Amber Lager 473 mL,,,23154,True,Cervezas,False
+184923,,2114272859,184923_2114272859,0,6 x Sixpack Salta Cautiva Cerveza Rubia,,,15493.8,True,Cervezas,False
+184923,,2114272852,184923_2114272852,0,6 x Sixpack Imperial Cerveza Lager Rubia,,,21774,True,Cervezas,False
+184923,,2114272828,184923_2114272828,0,6 x Quilmes Ipa,,,17694,True,Cervezas,False
+184923,,2114272843,184923_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,33774,True,Cervezas,False
+184923,,2114272839,184923_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,14154,True,Cervezas,False
+184923,,2114272829,184923_2114272829,0,6 x Quilmes Cerveza Stout,,,17694,True,Cervezas,False
+184923,,2114272845,184923_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
+184923,,2114632988,184923_2114632988,0,6 x Andes Origen Oro 473 mL,,,22494,True,Cervezas,False
+184923,,2114649584,184923_2114649584,0,4 x Quilmes Clásica 710 mL,,,16796,True,Cervezas,False
+184923,,2114272844,184923_2114272844,0,6 x Patagonia Vera Ipa,,,33774,True,Cervezas,False
+184923,,2114272837,184923_2114272837,0,6 x Stella Artois Cerveza Rubia,,,27354,True,Cervezas,False
+184923,,2114272830,184923_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
+184923,,2114272855,184923_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
+184923,,2114632982,184923_2114632982,0,4 x Budweiser 710 mL,,,18796,True,Cervezas,False
+184923,,2114632983,184923_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20996,True,Cervezas,False
+184923,,2114641634,184923_2114641634,0,6 x Miller Genuine Draft 710 mL,,,36774,True,Cervezas,False
+184923,,2114272860,184923_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
+184923,,2114272854,184923_2114272854,0,6 x Sixpack Grolsch Cerveza,,,26934,True,Cervezas,False
+184923,,2114272857,184923_2114272857,0,6 x Sixpack Miller Cerveza,,,25254,True,Cervezas,False
+184923,,2114272862,184923_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,24174,True,Cervezas,False
+184923,,2114632987,184923_2114632987,0,6 x Corona Porrón 330 mL,,,20120.1,True,Cervezas,False
+184923,,2114272846,184923_2114272846,0,6 x Sixpack Michelob Ultra,,,20994,True,Cervezas,False
+184923,,2114272836,184923_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
+184923,,2528354,184923_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1297.45,True,Cervezas,False
+184923,,2114833020,184923_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4049,True,Cervezas,False
+184923,,2114084532,184923_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,1779.5,True,Cervezas,False
+184923,,2114869743,184923_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
+184923,,2115002412,184923_2115002412,967817,Corona Cerveza 0.0,,473 mL,1984.95,True,Cervezas,False
+184923,,2115096847,184923_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1704.5,True,Cervezas,False
+184923,,2114825038,184923_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,2498.43,True,Cervezas,False
+184923,,2114013445,184923_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
+184924,,2469339,184924_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3349,True,Cervezas,True
+184924,,2115096845,184924_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1484.5,True,Cervezas,False
+184924,,2539095,184924_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
+184924,,2482872,184924_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3939,True,Cervezas,True
 184924,,1074483987,184924_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4899.3,True,Cervezas,False
 184924,,2469372,184924_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3651.75,True,Cervezas,True
-184924,,2114629800,184924_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2638.3,True,Cervezas,False
-184924,,2482855,184924_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,False
+184924,,2114629800,184924_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
+184924,,2482855,184924_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1955.85,True,Cervezas,False
 184924,,2482871,184924_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3177.85,True,Cervezas,True
-184924,,2469389,184924_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,False
-184924,,2114083629,184924_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4606.15,True,Cervezas,True
-184924,,2114914425,184924_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1269,True,Cervezas,True
-184924,,2114084425,184924_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3439,True,Cervezas,False
-184924,,2469547,184924_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2471.2,True,Cervezas,True
-184924,,2113858946,184924_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3494.25,True,Cervezas,True
+184924,,2469389,184924_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1697.4,True,Cervezas,False
+184924,,2114083629,184924_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3793.3,True,Cervezas,True
+184924,,2114914425,184924_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1769,True,Cervezas,True
+184924,,2114084425,184924_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2235.35,True,Cervezas,False
+184924,,2469547,184924_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2007.85,True,Cervezas,True
+184924,,2113858946,184924_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3028.35,True,Cervezas,True
 184924,,2111346558,184924_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5766.75,True,Cervezas,False
 184924,,2469409,184924_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2864.25,True,Cervezas,False
 184924,,1074392807,184924_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3501.15,True,Cervezas,False
@@ -173,48 +175,16 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 184924,,1074392822,184924_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3422.3,True,Cervezas,False
 184924,,1074392805,184924_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5449,True,Cervezas,False
 184924,,2114263236,184924_2114263236,616408,Imperial Cerveza Sin Alcohol Roja,Imperial,1 X 355 mL,1399,False,Cervezas,False
-184924,,2482853,184924_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2311.2,True,Cervezas,False
+184924,,2482853,184924_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2022.3,True,Cervezas,False
 184924,,1074804154,184924_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,3883.65,True,Cervezas,False
-184924,,2111346555,184924_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
-184924,,2469437,184924_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3291.75,True,Cervezas,False
-184924,,2482873,184924_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4009,True,Cervezas,False
-184924,,2114869440,184924_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3008.15,True,Cervezas,False
-184924,,2115070698,184924_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2269,True,Cervezas,False
-184924,,2114083630,184924_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3824.25,True,Cervezas,True
-184924,,2469420,184924_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,False
-184924,,2114549144,184924_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3231.2,True,Cervezas,False
-184924,,2114549076,184924_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2819.25,True,Cervezas,True
-184924,,2114318537,184924_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3849,True,Cervezas,False
-184924,,2482874,184924_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
-184924,,2482879,184924_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3209,True,Cervezas,False
-184924,,2114120281,184924_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-184924,,2114272864,184924_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17425.8,True,Cervezas,False
-184924,,2114272845,184924_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
-184924,,2114272839,184924_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,13554,True,Cervezas,False
-184924,,2114632986,184924_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33414,True,Cervezas,False
-184924,,2114272846,184924_2114272846,0,6 x Sixpack Michelob Ultra,,,20634,True,Cervezas,False
-184924,,2114272835,184924_2114272835,0,6 x Brahma Cerveza,,,18114,True,Cervezas,False
-184924,,2114272842,184924_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,32634,True,Cervezas,False
-184924,,2114272862,184924_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,24054,True,Cervezas,False
-184924,,2114272855,184924_2114272855,0,6 x Sixpack Heineken Cerveza,,,21910.5,True,Cervezas,False
-184924,,2114272830,184924_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,22914,True,Cervezas,False
-184924,,2114272833,184924_2114272833,0,6 x Andes Cerveza Rubia Origen Mendocina,,,20094,True,Cervezas,False
-184924,,2114632984,184924_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,26036,True,Cervezas,False
-184924,,2114641635,184924_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
-184924,,2114272843,184924_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,32874,True,Cervezas,False
-184924,,2114272828,184924_2114272828,0,6 x Quilmes Ipa,,,17034,True,Cervezas,False
-184924,,2114641634,184924_2114641634,0,6 x Miller Genuine Draft 710 mL,,,36294,True,Cervezas,False
-184924,,2114632987,184924_2114632987,0,6 x Corona Porrón 330 mL,,,19067.1,True,Cervezas,False
-184924,,2114272857,184924_2114272857,0,6 x Sixpack Miller Cerveza,,,25194,True,Cervezas,False
-184924,,2114632983,184924_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20396,True,Cervezas,False
-184924,,2114272837,184924_2114272837,0,6 x Stella Artois Cerveza Rubia,,,26574,True,Cervezas,False
-184924,,2114272847,184924_2114272847,0,6 x Quilmes Cerveza Clásica,,,16974,True,Cervezas,False
-184924,,2114641631,184924_2114641631,0,6 x Heineken Rubia 710 mL,,,29395.8,True,Cervezas,False
-184924,,2114656367,184924_2114656367,0,6 x Corona 473 mL,,,30474,True,Cervezas,False
-184924,,2114272852,184924_2114272852,0,6 x Sixpack Imperial Cerveza Lager Rubia,,,22674,True,Cervezas,False
+184924,,2111346555,184924_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3839,True,Cervezas,False
+184924,,2469437,184924_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2633.4,True,Cervezas,False
+184924,,2482873,184924_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2599.35,True,Cervezas,False
+184924,,2114869440,184924_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,2923.15,True,Cervezas,False
 184924,,2115421806,184924_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
 184924,,2115356155,184924_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2059.5,True,Cervezas,False
 184924,,2115413952,184924_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
+184924,,2114318537,184924_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3849,True,Cervezas,False
 184924,,2528354,184924_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1581.3,True,Cervezas,True
 184924,,2114084532,184924_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,False
 184924,,2114869743,184924_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
@@ -250,11 +220,11 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185340,,1074392822,185340_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3499.3,True,Cervezas,False
 185340,,2533056,185340_2533056,363386,Cerveza Temple Scottish 473 cc,Temple,1 X 473 mL,4389,False,Cervezas,True
 185340,,2114263236,185340_2114263236,616408,Imperial Cerveza Sin Alcohol Roja,Imperial,1 X 355 mL,1399,False,Cervezas,False
-185340,,2482853,185340_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2064.3,True,Cervezas,False
-185340,,1074804154,185340_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4045.15,True,Cervezas,False
-185340,,2111346555,185340_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,4039,True,Cervezas,False
-185340,,2469437,185340_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2771.4,True,Cervezas,False
-185340,,2482873,185340_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2573.35,True,Cervezas,False
+185340,,2482853,185340_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2359.2,True,Cervezas,False
+185340,,1074804154,185340_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4036.65,True,Cervezas,False
+185340,,2111346555,185340_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2999.25,True,Cervezas,False
+185340,,2469437,185340_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3464.25,True,Cervezas,False
+185340,,2482873,185340_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,3979,True,Cervezas,False
 185340,,2114083630,185340_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,False
 185340,,2469420,185340_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3464.25,True,Cervezas,True
 185340,,2114549144,185340_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
@@ -264,12 +234,9 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185340,,2482879,185340_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3239,True,Cervezas,False
 185340,,2114120281,185340_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
 185340,,1074392827,185340_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,4096.15,True,Cervezas,False
-185340,,2114632986,185340_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33354,True,Cervezas,False
-185340,,2114272830,185340_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
-185340,,2114633685,185340_2114633685,0,6 x Imperial Roja Amber Lager 473 mL,,,23154,True,Cervezas,False
-185340,,2114641633,185340_2114641633,0,6 x Amstel Lager 710 mL,,,21100.5,True,Cervezas,False
-185340,,2114641631,185340_2114641631,0,6 x Heineken Rubia 710 mL,,,29479.8,True,Cervezas,False
-185340,,2114641635,185340_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
+185340,,2114272845,185340_2114272845,0,6 x Stella Artois 0.0%,,,21594,True,Cervezas,False
+185340,,2114272860,185340_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
+185340,,2114272836,185340_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
 185340,,2114272858,185340_2114272858,0,6 x Sixpack Schneider Cerveza Rubia,,,18414,True,Cervezas,False
 185340,,2114272857,185340_2114272857,0,6 x Sixpack Miller Cerveza,,,25254,True,Cervezas,False
 185340,,2114272837,185340_2114272837,0,6 x Stella Artois Cerveza Rubia,,,27714,True,Cervezas,False
@@ -278,21 +245,27 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185340,,2114272833,185340_2114272833,0,6 x Andes Cerveza Rubia Origen Mendocina,,,22494,True,Cervezas,False
 185340,,2114272842,185340_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,33954,True,Cervezas,False
 185340,,2114633684,185340_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,26361.9,True,Cervezas,False
+185340,,2114272830,185340_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
+185340,,2114633685,185340_2114633685,0,6 x Imperial Roja Amber Lager 473 mL,,,23154,True,Cervezas,False
+185340,,2114641633,185340_2114641633,0,6 x Amstel Lager 710 mL,,,21100.5,True,Cervezas,False
+185340,,2114641631,185340_2114641631,0,6 x Heineken Rubia 710 mL,,,29479.8,True,Cervezas,False
+185340,,2114641635,185340_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
 185340,,2114272827,185340_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,24234,True,Cervezas,False
 185340,,2114272851,185340_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,23214,True,Cervezas,False
 185340,,2114272853,185340_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19434,True,Cervezas,False
 185340,,2114272856,185340_2114272856,0,6 x Sixpack Imperial Cerveza Golden,,,22074,True,Cervezas,False
 185340,,2114272829,185340_2114272829,0,6 x Quilmes Cerveza Stout,,,17694,True,Cervezas,False
-185340,,2114272839,185340_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,14334,True,Cervezas,False
-185340,,2114272860,185340_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-185340,,2114272845,185340_2114272845,0,6 x Stella Artois 0.0%,,,21594,True,Cervezas,False
-185340,,2114272836,185340_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
+185340,,2114632988,185340_2114632988,0,6 x Andes Origen Oro 473 mL,,,22494,True,Cervezas,False
 185340,,2114656367,185340_2114656367,0,6 x Corona 473 mL,,,31734,True,Cervezas,False
-185340,,2115356155,185340_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2084.5,True,Cervezas,False
-185340,,2115352337,185340_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2331.75,True,Cervezas,False
-185340,,2115421806,185340_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
-185340,,2115413952,185340_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
-185340,,2115351918,185340_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2301.75,True,Cervezas,False
+185340,,2114632987,185340_2114632987,0,6 x Corona Porrón 330 mL,,,20120.1,True,Cervezas,False
+185340,,2528354,185340_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1672.3,True,Cervezas,False
+185340,,2114833020,185340_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4089,True,Cervezas,False
+185340,,2114084532,185340_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3599,True,Cervezas,False
+185340,,2114869743,185340_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2091.75,True,Cervezas,False
+185340,,2115002412,185340_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
+185340,,2115129133,185340_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
+185340,,2114825038,185340_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3729,True,Cervezas,False
+185340,,2114013445,185340_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
 185458,,2469339,185458_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,True
 185458,,2539095,185458_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,True
 185458,,2482872,185458_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3191.2,True,Cervezas,True
@@ -330,6 +303,34 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185458,,2114120281,185458_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
 185458,,2114629634,185458_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6929,True,Cervezas,False
 185458,,1074485103,185458_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4504.15,True,Cervezas,False
+185458,,2114272836,185458_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
+185458,,2114272845,185458_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
+185458,,2114633684,185458_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,27024.9,True,Cervezas,False
+185458,,2114649584,185458_2114649584,0,4 x Quilmes Clásica 710 mL,,,16796,True,Cervezas,False
+185458,,2114632983,185458_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20996,True,Cervezas,False
+185458,,2114632982,185458_2114632982,0,4 x Budweiser 710 mL,,,18796,True,Cervezas,False
+185458,,2114632986,185458_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33774,True,Cervezas,False
+185458,,2114272855,185458_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
+185458,,2114272829,185458_2114272829,0,6 x Quilmes Cerveza Stout,,,17694,True,Cervezas,False
+185458,,2114272827,185458_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23934,True,Cervezas,False
+185458,,2114272830,185458_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
+185458,,2114272857,185458_2114272857,0,6 x Sixpack Miller Cerveza,,,25434,True,Cervezas,False
+185458,,2114272843,185458_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,33774,True,Cervezas,False
+185458,,2114272842,185458_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,33774,True,Cervezas,False
+185458,,2114272835,185458_2114272835,0,6 x Brahma Cerveza,,,18054,True,Cervezas,False
+185458,,2114272846,185458_2114272846,0,6 x Sixpack Michelob Ultra,,,20994,True,Cervezas,False
+185458,,2114632984,185458_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,27076,True,Cervezas,False
+185458,,2114656367,185458_2114656367,0,6 x Corona 473 mL,,,31674,True,Cervezas,False
+185458,,2114641631,185458_2114641631,0,6 x Heineken Rubia 710 mL,,,29479.8,True,Cervezas,False
+185458,,2114633462,185458_2114633462,0,6 x Stella Artois Porrón 330 mL,,,27774,True,Cervezas,False
+185458,,2114272844,185458_2114272844,0,6 x Patagonia Vera Ipa,,,33774,True,Cervezas,False
+185458,,2114272851,185458_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,23214,True,Cervezas,False
+185458,,2114272837,185458_2114272837,0,6 x Stella Artois Cerveza Rubia,,,27354,True,Cervezas,False
+185458,,2114632988,185458_2114632988,0,6 x Andes Origen Oro 473 mL,,,22494,True,Cervezas,False
+185458,,2115356155,185458_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2084.5,True,Cervezas,False
+185458,,2115351918,185458_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2331.75,True,Cervezas,False
+185458,,2115352337,185458_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2331.75,True,Cervezas,False
+185458,,2115421806,185458_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
 185460,,2469339,185460_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2579.25,True,Cervezas,True
 185460,,2115096845,185460_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,False
 185460,,2539095,185460_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,True
@@ -345,25 +346,25 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185460,,2114084425,185460_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3389,True,Cervezas,True
 185460,,2469547,185460_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2471.2,True,Cervezas,False
 185460,,2113858946,185460_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3449.25,True,Cervezas,False
-185460,,2111346558,185460_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,4613.4,True,Cervezas,False
-185460,,2469409,185460_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,3869,True,Cervezas,True
-185460,,1074392807,185460_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3424.65,True,Cervezas,False
-185460,,2482851,185460_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,5382.3,True,Cervezas,False
-185460,,1074392811,185460_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3394.3,True,Cervezas,False
-185460,,2482839,185460_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,3561.35,True,Cervezas,True
+185460,,2111346558,185460_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5766.75,True,Cervezas,False
+185460,,2469409,185460_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2901.75,True,Cervezas,True
+185460,,1074392807,185460_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3501.15,True,Cervezas,False
+185460,,2482851,185460_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6151.2,True,Cervezas,False
+185460,,1074392811,185460_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3387.3,True,Cervezas,False
+185460,,2482839,185460_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4109.25,True,Cervezas,True
 185460,,1074392831,185460_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2693.65,True,Cervezas,False
-185460,,2114263233,185460_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,2508.35,True,Cervezas,False
-185460,,1074392815,185460_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,2109.5,True,Cervezas,False
-185460,,1074392822,185460_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3464.3,True,Cervezas,False
-185460,,1074392805,185460_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5449,True,Cervezas,False
+185460,,2114263233,185460_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3859,True,Cervezas,False
+185460,,1074392815,185460_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,3577.65,True,Cervezas,False
+185460,,1074392822,185460_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3548.3,True,Cervezas,False
+185460,,1074392805,185460_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5469,True,Cervezas,False
 185460,,2533056,185460_2533056,363386,Cerveza Temple Scottish 473 cc,Temple,1 X 473 mL,4339,False,Cervezas,False
 185460,,2114263236,185460_2114263236,616408,Imperial Cerveza Sin Alcohol Roja,Imperial,1 X 355 mL,1399,False,Cervezas,False
-185460,,2482853,185460_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2050.3,True,Cervezas,False
-185460,,1074804154,185460_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,3892.15,True,Cervezas,False
-185460,,2111346555,185460_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3839,True,Cervezas,False
-185460,,2469437,185460_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2633.4,True,Cervezas,False
-185460,,2482873,185460_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2605.85,True,Cervezas,False
-185460,,2114869440,185460_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,2965.65,True,Cervezas,False
+185460,,2482853,185460_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2343.2,True,Cervezas,False
+185460,,1074804154,185460_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,3883.65,True,Cervezas,False
+185460,,2111346555,185460_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
+185460,,2469437,185460_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3291.75,True,Cervezas,False
+185460,,2482873,185460_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
+185460,,2114869440,185460_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,2974.15,True,Cervezas,False
 185460,,2115070698,185460_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2219,True,Cervezas,False
 185460,,2114083630,185460_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3869.25,True,Cervezas,True
 185460,,2469420,185460_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,True
@@ -373,50 +374,32 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 185460,,2482874,185460_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
 185460,,2482879,185460_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
 185460,,2114120281,185460_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,True
-185460,,2114272862,185460_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,15635.1,True,Cervezas,False
-185460,,2114272836,185460_2114272836,0,6 x Budweiser Cerveza Rubia,,,18534,True,Cervezas,False
-185460,,2114272845,185460_2114272845,0,6 x Stella Artois 0.0%,,,21594,True,Cervezas,False
-185460,,2114641631,185460_2114641631,0,6 x Heineken Rubia 710 mL,,,29479.8,True,Cervezas,False
-185460,,2114272844,185460_2114272844,0,6 x Patagonia Vera Ipa,,,32094,True,Cervezas,False
-185460,,2114272829,185460_2114272829,0,6 x Quilmes Cerveza Stout,,,17574,True,Cervezas,False
-185460,,2114632983,185460_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20636,True,Cervezas,False
-185460,,2114632982,185460_2114632982,0,4 x Budweiser 710 mL,,,18396,True,Cervezas,False
-185460,,2114272842,185460_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,32874,True,Cervezas,False
-185460,,2114632987,185460_2114632987,0,6 x Corona Porrón 330 mL,,,19340.1,True,Cervezas,False
-185460,,2114272855,185460_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
-185460,,2114272843,185460_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,32874,True,Cervezas,False
-185460,,2114632984,185460_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,25716,True,Cervezas,False
-185460,,2114641635,185460_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
-185460,,2114633684,185460_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,27024.9,True,Cervezas,False
-185460,,2114632988,185460_2114632988,0,6 x Andes Origen Oro 473 mL,,,22254,True,Cervezas,False
-185460,,2114272839,185460_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,13914,True,Cervezas,False
-185460,,2114633462,185460_2114633462,0,6 x Stella Artois Porrón 330 mL,,,26694,True,Cervezas,False
-185460,,2114272853,185460_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19074,True,Cervezas,False
-185460,,2114272864,185460_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17719.8,True,Cervezas,False
-185460,,2114272851,185460_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,15050.1,True,Cervezas,False
-185460,,2114272828,185460_2114272828,0,6 x Quilmes Ipa,,,17034,True,Cervezas,False
-185460,,2114272860,185460_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-185460,,2114272847,185460_2114272847,0,6 x Quilmes Cerveza Clásica,,,16974,True,Cervezas,False
 185460,,2114566586,185460_2114566586,720312,Konig Cerveza Lata,Pilsener Konign,1 x 500 mL,5129,True,Cervezas,False
-185460,,2115351918,185460_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,1975.35,True,Cervezas,False
-185460,,2115413952,185460_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2197.3,True,Cervezas,False
-185460,,2115352337,185460_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,1994.85,True,Cervezas,False
-185460,,2115421806,185460_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,3028.35,True,Cervezas,False
-186262,,2469339,186262_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,True
-186262,,2115096845,186262_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1504.5,True,Cervezas,False
-186262,,2539095,186262_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,True
-186262,,2482872,186262_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3989,True,Cervezas,True
+185460,,2115421806,185460_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
+185460,,2115352337,185460_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2301.75,True,Cervezas,False
+185460,,2115351918,185460_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2279.25,True,Cervezas,False
+185460,,2528354,185460_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1623.3,True,Cervezas,False
+185460,,2114084532,185460_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3599,True,Cervezas,False
+185460,,2115002412,185460_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
+185460,,2115096847,185460_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1704.5,True,Cervezas,False
+185460,,2115129133,185460_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3597.3,True,Cervezas,False
+185460,,2114825038,185460_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3689,True,Cervezas,False
+185460,,2114013445,185460_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
+186262,,2469339,186262_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,True
+186262,,2115096845,186262_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,False
+186262,,2539095,186262_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,True
+186262,,2482872,186262_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3191.2,True,Cervezas,True
 186262,,1074483987,186262_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4913.3,True,Cervezas,True
 186262,,2469372,186262_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3651.75,True,Cervezas,False
-186262,,2114629800,186262_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2610.3,True,Cervezas,False
-186262,,2482855,186262_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1981.85,True,Cervezas,False
+186262,,2114629800,186262_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2603.3,True,Cervezas,False
+186262,,2482855,186262_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2294.25,True,Cervezas,False
 186262,,2482871,186262_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3353.35,True,Cervezas,False
-186262,,2469389,186262_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1679.4,True,Cervezas,False
-186262,,2114083629,186262_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3891.3,True,Cervezas,False
-186262,,2114914425,186262_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1859,True,Cervezas,False
-186262,,2114084425,186262_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2306.85,True,Cervezas,True
-186262,,2469547,186262_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2033.85,True,Cervezas,False
-186262,,2113858946,186262_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,False
+186262,,2469389,186262_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2099.25,True,Cervezas,False
+186262,,2114083629,186262_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4725.15,True,Cervezas,False
+186262,,2114914425,186262_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1339,True,Cervezas,False
+186262,,2114084425,186262_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3549,True,Cervezas,True
+186262,,2469547,186262_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,False
+186262,,2113858946,186262_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,False
 186262,,2111346558,186262_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,6066.75,True,Cervezas,False
 186262,,2469409,186262_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2954.25,True,Cervezas,False
 186262,,1074392807,186262_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3645.65,True,Cervezas,False
@@ -434,15 +417,24 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 186262,,2111346555,186262_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3036.75,True,Cervezas,False
 186262,,2469437,186262_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
 186262,,2482873,186262_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4079,True,Cervezas,False
-186262,,2115070698,186262_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,1988.15,True,Cervezas,False
-186262,,2114083630,186262_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,5249,True,Cervezas,False
-186262,,2469420,186262_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,True
-186262,,2114549144,186262_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2761.85,True,Cervezas,False
-186262,,2114549076,186262_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
-186262,,2114318537,186262_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2291.4,True,Cervezas,False
+186262,,2115070698,186262_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2339,True,Cervezas,False
+186262,,2114083630,186262_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,False
+186262,,2469420,186262_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,True
+186262,,2114549144,186262_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3399.2,True,Cervezas,False
+186262,,2114549076,186262_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
+186262,,2114318537,186262_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3819,True,Cervezas,False
+186262,,2482874,186262_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5019,True,Cervezas,False
 186262,,2482879,186262_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3219,True,Cervezas,False
 186262,,2114120281,186262_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4489,True,Cervezas,False
-186262,,1074392827,186262_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2379.5,True,Cervezas,False
+186262,,2528354,186262_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1651.3,True,Cervezas,False
+186262,,2114833020,186262_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4079,True,Cervezas,False
+186262,,2114084532,186262_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3599,True,Cervezas,False
+186262,,2114869743,186262_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2091.75,True,Cervezas,False
+186262,,2115002412,186262_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
+186262,,2115096847,186262_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1684.5,True,Cervezas,False
+186262,,2115129133,186262_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
+186262,,2114825038,186262_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3729,True,Cervezas,False
+186262,,2114013445,186262_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
 186327,,2469339,186327_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2511.75,True,Cervezas,False
 186327,,2115096845,186327_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1895.4,True,Cervezas,False
 186327,,2539095,186327_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,6099.19,True,Cervezas,True
@@ -471,49 +463,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 186327,,2111346555,186327_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
 186327,,2469437,186327_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3291.75,True,Cervezas,False
 186327,,2482873,186327_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
-186327,,2114083630,186327_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3771.75,True,Cervezas,False
-186327,,2469420,186327_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,True
-186327,,2114549144,186327_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3271.2,True,Cervezas,False
-186327,,2114549076,186327_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2781.75,True,Cervezas,False
-186327,,2114318537,186327_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3869,True,Cervezas,True
-186327,,2482874,186327_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
-186327,,2482879,186327_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
-186327,,2114120281,186327_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-186327,,2114629634,186327_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6819,True,Cervezas,False
-186327,,2114272860,186327_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-186327,,2114632986,186327_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33834,True,Cervezas,False
-186327,,2114272844,186327_2114272844,0,6 x Patagonia Vera Ipa,,,32514,True,Cervezas,False
-186327,,2114272847,186327_2114272847,0,6 x Quilmes Cerveza Clásica,,,16974,True,Cervezas,False
-186327,,2114272855,186327_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
-186327,,2114641635,186327_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
-186327,,2114272854,186327_2114272854,0,6 x Sixpack Grolsch Cerveza,,,26994,True,Cervezas,False
-186327,,2114272864,186327_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17551.8,True,Cervezas,False
-186327,,2114272839,186327_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,13734,True,Cervezas,False
-186327,,2114272837,186327_2114272837,0,6 x Stella Artois Cerveza Rubia,,,26574,True,Cervezas,False
-186327,,2114272836,186327_2114272836,0,6 x Budweiser Cerveza Rubia,,,19014,True,Cervezas,False
-186327,,2114272857,186327_2114272857,0,6 x Sixpack Miller Cerveza,,,25254,True,Cervezas,False
-186327,,2114272843,186327_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,32454,True,Cervezas,False
-186327,,2114633684,186327_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,27330.9,True,Cervezas,False
-186327,,2114272835,186327_2114272835,0,6 x Brahma Cerveza,,,18114,True,Cervezas,False
-186327,,2114272842,186327_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,32634,True,Cervezas,False
-186327,,2114632987,186327_2114632987,0,6 x Corona Porrón 330 mL,,,19340.1,True,Cervezas,False
-186327,,2114272862,186327_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,24174,True,Cervezas,False
-186327,,2114632982,186327_2114632982,0,4 x Budweiser 710 mL,,,18396,True,Cervezas,False
-186327,,2114272845,186327_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
-186327,,2114272846,186327_2114272846,0,6 x Sixpack Michelob Ultra,,,20634,True,Cervezas,False
-186327,,2114632984,186327_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,26036,True,Cervezas,False
-186327,,2114632983,186327_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20116,True,Cervezas,False
-186327,,2114656367,186327_2114656367,0,6 x Corona 473 mL,,,30114,True,Cervezas,False
-186327,,2115151512,186327_2115151512,53387,cerveza estrella damm lata 500ml,Estrella Damm,1 X 500 mL,2949,True,Cervezas,False
-186327,,2114019305,186327_2114019305,626222,Blue Moon Belgian White Lata 473 ml,Blue Moon,1 x 473 mL,3323.4,True,Cervezas,False
-186327,,2114926558,186327_2114926558,953712,Cerveza Lager Estrella Del Sur Lata,,500 mL,1759,True,Cervezas,False
-186327,,2528354,186327_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1602.3,True,Cervezas,False
-186327,,2114833020,186327_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4129,True,Cervezas,False
-186327,,2114084532,186327_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,True
-186327,,2114869743,186327_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
-186327,,2115002412,186327_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
-186327,,2114825038,186327_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3689,True,Cervezas,False
-186327,,2114013445,186327_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
 207836,,2469339,207836_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2541.75,True,Cervezas,False
 207836,,2539095,207836_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
 207836,,2482872,207836_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3151.2,True,Cervezas,False
@@ -545,15 +494,30 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 207836,,2111346555,207836_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2909.25,True,Cervezas,False
 207836,,2469437,207836_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3291.75,True,Cervezas,False
 207836,,2482873,207836_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4019,True,Cervezas,False
-207836,,2114549076,207836_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2781.75,True,Cervezas,False
-207836,,2114318537,207836_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3769,True,Cervezas,False
-207836,,2482879,207836_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3209,True,Cervezas,False
-207836,,2114120281,207836_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4369,True,Cervezas,False
-207836,,2114629634,207836_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6959,True,Cervezas,False
-207836,,1074485103,207836_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4504.15,True,Cervezas,False
-207836,,2528354,207836_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1602.3,True,Cervezas,False
-207836,,2469353,207836_2469353,354811,Cerveza Patagonia 24.7 473 cc,Patagonia,1 X 473 mL,4004.25,True,Cervezas,False
-207836,,2114084426,207836_2114084426,595866,Stella Artois Cerveza Premium Lager,Stella Artois,1 x 710 mL,4881.75,True,Cervezas,False
+207836,,2114272836,207836_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
+207836,,2114272842,207836_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,32634,True,Cervezas,False
+207836,,2114633690,207836_2114633690,0,6 x Miller Rubia 330 mL,,,26833.38,True,Cervezas,False
+207836,,2114272843,207836_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,32034,True,Cervezas,False
+207836,,2114272846,207836_2114272846,0,6 x Sixpack Michelob Ultra,,,20094,True,Cervezas,False
+207836,,2114656367,207836_2114656367,0,6 x Corona 473 mL,,,30474,True,Cervezas,False
+207836,,2114272844,207836_2114272844,0,6 x Patagonia Vera Ipa,,,32094,True,Cervezas,False
+207836,,2114272857,207836_2114272857,0,6 x Sixpack Miller Cerveza,,,25494,True,Cervezas,False
+207836,,2114272855,207836_2114272855,0,6 x Sixpack Heineken Cerveza,,,21505.5,True,Cervezas,False
+207836,,2114632984,207836_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,26036,True,Cervezas,False
+207836,,2114272852,207836_2114272852,0,6 x Sixpack Imperial Cerveza Lager Rubia,,,22374,True,Cervezas,False
+207836,,2114633462,207836_2114633462,0,6 x Stella Artois Porrón 330 mL,,,26694,True,Cervezas,False
+207836,,2114272829,207836_2114272829,0,6 x Quilmes Cerveza Stout,,,17334,True,Cervezas,False
+207836,,2114632987,207836_2114632987,0,6 x Corona Porrón 330 mL,,,19340.1,True,Cervezas,False
+207836,,2114632988,207836_2114632988,0,6 x Andes Origen Oro 473 mL,,,22254,True,Cervezas,False
+207836,,2114641635,207836_2114641635,0,6 x Schneider Lager 710 mL,,,26214,True,Cervezas,False
+207836,,2114272833,207836_2114272833,0,6 x Andes Cerveza Rubia Origen Mendocina,,,20334,True,Cervezas,False
+207836,,2114272845,207836_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
+207836,,2114272830,207836_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23214,True,Cervezas,False
+207836,,2114272827,207836_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23634,True,Cervezas,False
+207836,,2114272853,207836_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19254,True,Cervezas,False
+207836,,2114649584,207836_2114649584,0,4 x Quilmes Clásica 710 mL,,,16196,True,Cervezas,False
+207836,,2114272835,207836_2114272835,0,6 x Brahma Cerveza,,,17934,True,Cervezas,False
+207836,,2114632983,207836_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20396,True,Cervezas,False
 207836,,2114566586,207836_2114566586,720312,Konig Cerveza Lata,Pilsener Konign,1 x 500 mL,5129,True,Cervezas,False
 207836,,2115413952,207836_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2197.3,True,Cervezas,False
 207836,,2115299986,207836_2115299986,1049258,Stones Cerveza Lemon,,1 x 473 mL,2399.25,True,Cervezas,False
@@ -580,77 +544,30 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 224352,,1074392811,224352_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3387.3,True,Cervezas,False
 224352,,2482839,224352_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4071.75,True,Cervezas,False
 224352,,1074392831,224352_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2693.65,True,Cervezas,False
+224352,,2114263233,224352_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3809,True,Cervezas,False
 224352,,1074392815,224352_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,3535.15,True,Cervezas,False
 224352,,1074392822,224352_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3450.3,True,Cervezas,False
 224352,,1074392805,224352_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5449,True,Cervezas,False
-224352,,2114263233,224352_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3809,True,Cervezas,False
 224352,,2482853,224352_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2311.2,True,Cervezas,False
 224352,,2111346555,224352_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
 224352,,2469437,224352_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3291.75,True,Cervezas,False
 224352,,2482873,224352_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,3979,True,Cervezas,False
 224352,,2114869440,224352_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3050.65,True,Cervezas,False
-224352,,2115070698,224352_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2269,True,Cervezas,False
-224352,,2114083630,224352_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3824.25,True,Cervezas,False
-224352,,2469420,224352_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,False
-224352,,2114549144,224352_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3231.2,True,Cervezas,False
-224352,,2114549076,224352_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2781.75,True,Cervezas,False
-224352,,2114318537,224352_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3819,True,Cervezas,False
-224352,,2482874,224352_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,4939,True,Cervezas,False
-224352,,2482879,224352_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
-224352,,2114120281,224352_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4489,True,Cervezas,False
-224352,,2114641635,224352_2114641635,0,6 x Schneider Lager 710 mL,,,26934,True,Cervezas,False
-224352,,2114272855,224352_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
-224352,,2114272830,224352_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23214,True,Cervezas,False
-224352,,2114272827,224352_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23634,True,Cervezas,False
-224352,,2114272859,224352_2114272859,0,6 x Sixpack Salta Cautiva Cerveza Rubia,,,15493.8,True,Cervezas,False
-224352,,2114272846,224352_2114272846,0,6 x Sixpack Michelob Ultra,,,20634,True,Cervezas,False
-224352,,2114632986,224352_2114632986,0,6 x Patagonia Lager del Sur 473 mL,,,33414,True,Cervezas,False
-224352,,2114641634,224352_2114641634,0,6 x Miller Genuine Draft 710 mL,,,36774,True,Cervezas,False
-224352,,2114272833,224352_2114272833,0,6 x Andes Cerveza Rubia Origen Mendocina,,,20334,True,Cervezas,False
-224352,,2114272835,224352_2114272835,0,6 x Brahma Cerveza,,,18114,True,Cervezas,False
-224352,,2114272842,224352_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,32574,True,Cervezas,False
-224352,,2114272862,224352_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,23874,True,Cervezas,False
-224352,,2114272856,224352_2114272856,0,6 x Sixpack Imperial Cerveza Golden,,,21894,True,Cervezas,False
-224352,,2114272858,224352_2114272858,0,6 x Sixpack Schneider Cerveza Rubia,,,18354,True,Cervezas,False
-224352,,2114632984,224352_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,26356,True,Cervezas,False
-224352,,2114272843,224352_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,32454,True,Cervezas,False
-224352,,2114633690,224352_2114633690,0,6 x Miller Rubia 330 mL,,,27197.1,True,Cervezas,False
-224352,,2114632983,224352_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20396,True,Cervezas,False
-224352,,2114272851,224352_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,23214,True,Cervezas,False
-224352,,2114633684,224352_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,27024.9,True,Cervezas,False
-224352,,2114641633,224352_2114641633,0,6 x Amstel Lager 710 mL,,,21280.5,True,Cervezas,False
-224352,,2114632987,224352_2114632987,0,6 x Corona Porrón 330 mL,,,19574.1,True,Cervezas,False
-224352,,2114272853,224352_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19074,True,Cervezas,False
-224352,,2114656367,224352_2114656367,0,6 x Corona 473 mL,,,30894,True,Cervezas,False
-224352,,2115437959,224352_2115437959,1087507,Rabieta cerveza zero 473 ml,Rabieta,473 ml,1954.5,True,Cervezas,False
-224352,,2115352337,224352_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2271.75,True,Cervezas,False
-224352,,2115421806,224352_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
-224352,,2115351918,224352_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2309.25,True,Cervezas,False
-224352,,2115413952,224352_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2197.3,True,Cervezas,False
-224352,,2528354,224352_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1602.3,True,Cervezas,False
-224352,,2114833020,224352_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4049,True,Cervezas,False
-224352,,2114084532,224352_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3509,True,Cervezas,False
-224352,,2114869743,224352_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2136.75,True,Cervezas,False
-224352,,2115002412,224352_2115002412,967817,Corona Cerveza 0.0,,473 mL,3649,True,Cervezas,False
-224352,,2115096847,224352_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1949.5,True,Cervezas,False
-224352,,2115129133,224352_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3506.3,True,Cervezas,False
-224352,,2114825038,224352_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3639,True,Cervezas,False
-224352,,2114013445,224352_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2369,False,Cervezas,False
-228542,,2469339,228542_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3389,True,Cervezas,False
-228542,,2115096845,228542_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1504.5,True,Cervezas,False
-228542,,2539095,228542_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
-228542,,2482872,228542_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3939,True,Cervezas,False
+228542,,2469339,228542_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2541.75,True,Cervezas,False
+228542,,2115096845,228542_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,False
+228542,,2539095,228542_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
+228542,,2482872,228542_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3151.2,True,Cervezas,False
 228542,,1074483987,228542_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4913.3,True,Cervezas,False
 228542,,2469372,228542_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3629.25,True,Cervezas,False
-228542,,2114629800,228542_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2652.3,True,Cervezas,False
-228542,,2482855,228542_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1962.35,True,Cervezas,False
+228542,,2114629800,228542_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
+228542,,2482855,228542_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,False
 228542,,2482871,228542_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3223.35,True,Cervezas,False
-228542,,2469389,228542_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1697.4,True,Cervezas,False
-228542,,2114083629,228542_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3793.3,True,Cervezas,False
+228542,,2469389,228542_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,False
+228542,,2114083629,228542_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4606.15,True,Cervezas,False
 228542,,2114914425,228542_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1779,True,Cervezas,False
-228542,,2114084425,228542_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2202.85,True,Cervezas,False
-228542,,2469547,228542_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2033.85,True,Cervezas,False
-228542,,2113858946,228542_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,2989.35,True,Cervezas,False
+228542,,2114084425,228542_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3389,True,Cervezas,False
+228542,,2469547,228542_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,False
+228542,,2113858946,228542_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3449.25,True,Cervezas,False
 228542,,2111346558,228542_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5691.75,True,Cervezas,False
 228542,,2469409,228542_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2901.75,True,Cervezas,False
 228542,,1074392807,228542_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3501.15,True,Cervezas,False
@@ -664,19 +581,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 228542,,2111346555,228542_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
 228542,,2469437,228542_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3329.25,True,Cervezas,False
 228542,,2482873,228542_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
-228542,,2115070698,228542_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,1886.15,True,Cervezas,False
-228542,,2114083630,228542_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,5029,True,Cervezas,False
-228542,,2469420,228542_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,2657.4,True,Cervezas,False
-228542,,2114549144,228542_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2625.35,True,Cervezas,False
-228542,,2114549076,228542_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3659,True,Cervezas,False
-228542,,2114318537,228542_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2291.4,True,Cervezas,False
-228542,,2482874,228542_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
-228542,,2482879,228542_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
-228542,,2114120281,228542_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-228542,,1074392827,228542_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2289.5,True,Cervezas,False
-228542,,2114629634,228542_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,3810.95,True,Cervezas,False
-228542,,2114970867,228542_2114970867,955344,cerveza super dry asahi 330 ml,Asahi,1 x 330 cc,5594.55,True,Cervezas,False
-228542,,2115195685,228542_2115195685,1008864,Antares Cerveza Lager 4.7% Botella 330ml,Antares,1 x 330 mL,2841.3,True,Cervezas,False
 231507,,2114318537,231507_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3799,True,Cervezas,False
 231507,,2114833020,231507_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4039,True,Cervezas,False
 231507,,2114084532,231507_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,False
@@ -693,12 +597,12 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 231868,,2114629800,231868_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
 231868,,2482855,231868_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2294.25,True,Cervezas,False
 231868,,2482871,231868_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3353.35,True,Cervezas,True
+231868,,2469389,231868_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,False
 231868,,2114083629,231868_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
 231868,,2114914425,231868_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1839,True,Cervezas,False
 231868,,2114084425,231868_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3579,True,Cervezas,False
 231868,,2469547,231868_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2535.2,True,Cervezas,True
 231868,,2113858946,231868_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3561.75,True,Cervezas,True
-231868,,2115070698,231868_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2309,True,Cervezas,False
 231868,,2111346558,231868_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5916.75,True,Cervezas,False
 231868,,2469409,231868_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,False
 231868,,1074392807,231868_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3645.65,True,Cervezas,False
@@ -708,42 +612,15 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 231868,,1074392831,231868_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2804.15,True,Cervezas,False
 231868,,2114263233,231868_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3859,True,Cervezas,False
 231868,,1074392822,231868_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3499.3,True,Cervezas,False
-231868,,2482853,231868_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2064.3,True,Cervezas,False
-231868,,2111346555,231868_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3999,True,Cervezas,False
-231868,,2482873,231868_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2605.85,True,Cervezas,True
-231868,,2469389,231868_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2121.75,True,Cervezas,False
-231868,,2114083630,231868_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,True
-231868,,2469420,231868_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
-231868,,2114549144,231868_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
-231868,,2114549076,231868_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
+231868,,2482853,231868_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2359.2,True,Cervezas,False
+231868,,1074804154,231868_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4036.65,True,Cervezas,False
+231868,,2111346555,231868_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2999.25,True,Cervezas,False
+231868,,2482873,231868_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,True
+231868,,2115195685,231868_2115195685,1008864,Antares Cerveza Lager 4.7% Botella 330ml,Antares,1 x 330 mL,2841.3,True,Cervezas,False
+231868,,2115352337,231868_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2331.75,True,Cervezas,False
+231868,,2115413952,231868_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
+231868,,2115351918,231868_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2331.75,True,Cervezas,False
 231868,,2114318537,231868_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3819,True,Cervezas,False
-231868,,2482874,231868_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5079,True,Cervezas,False
-231868,,2482879,231868_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3239,True,Cervezas,False
-231868,,2114120281,231868_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-231868,,2114272860,231868_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-231868,,2114633685,231868_2114633685,0,6 x Imperial Roja Amber Lager 473 mL,,,23154,True,Cervezas,False
-231868,,2114272828,231868_2114272828,0,6 x Quilmes Ipa,,,17514,True,Cervezas,False
-231868,,2114272856,231868_2114272856,0,6 x Sixpack Imperial Cerveza Golden,,,21894,True,Cervezas,False
-231868,,2114632988,231868_2114632988,0,6 x Andes Origen Oro 473 mL,,,22494,True,Cervezas,False
-231868,,2114272829,231868_2114272829,0,6 x Quilmes Cerveza Stout,,,17694,True,Cervezas,False
-231868,,2114272830,231868_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
-231868,,2114641635,231868_2114641635,0,6 x Schneider Lager 710 mL,,,26634,True,Cervezas,False
-231868,,2114272855,231868_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
-231868,,2114272836,231868_2114272836,0,6 x Budweiser Cerveza Rubia,,,19014,True,Cervezas,False
-231868,,2114632984,231868_2114632984,0,4 x Stella Artois Premium Lager 710 mL,,,27076,True,Cervezas,False
-231868,,2114272837,231868_2114272837,0,6 x Stella Artois Cerveza Rubia,,,27354,True,Cervezas,False
-231868,,2114272864,231868_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17341.8,True,Cervezas,False
-231868,,2114632983,231868_2114632983,0,4 x Andes Origen Rubia 710 mL,,,20996,True,Cervezas,False
-231868,,2114272839,231868_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,14334,True,Cervezas,False
-231868,,2114272843,231868_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,33774,True,Cervezas,False
-231868,,2114272847,231868_2114272847,0,6 x Quilmes Cerveza Clásica,,,16974,True,Cervezas,False
-231868,,2114641634,231868_2114641634,0,6 x Miller Genuine Draft 710 mL,,,36774,True,Cervezas,False
-231868,,2114641633,231868_2114641633,0,6 x Amstel Lager 710 mL,,,20335.5,True,Cervezas,False
-231868,,2114272827,231868_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,24234,True,Cervezas,False
-231868,,2114633684,231868_2114633684,0,6 x Imperial Lager Rubia Sabor Intenso 710 mL,,,27024.9,True,Cervezas,False
-231868,,2114641631,231868_2114641631,0,6 x Heineken Rubia 710 mL,,,29857.8,True,Cervezas,False
-231868,,2114632982,231868_2114632982,0,4 x Budweiser 710 mL,,,18996,True,Cervezas,False
-231868,,2114656367,231868_2114656367,0,6 x Corona 473 mL,,,31734,True,Cervezas,False
 231868,,2528354,231868_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1672.3,True,Cervezas,False
 231868,,2114833020,231868_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4099,True,Cervezas,False
 231868,,2114084532,231868_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,False
@@ -759,19 +636,20 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 231869,,2469372,231869_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3629.25,True,Cervezas,False
 231869,,2114629800,231869_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2638.3,True,Cervezas,False
 231869,,2482855,231869_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,False
+231869,,2482871,231869_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3177.85,True,Cervezas,True
 231869,,2469389,231869_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2099.25,True,Cervezas,False
 231869,,2114083629,231869_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4606.15,True,Cervezas,False
 231869,,2114914425,231869_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1269,True,Cervezas,False
 231869,,2114084425,231869_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3389,True,Cervezas,False
 231869,,2469547,231869_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2471.2,True,Cervezas,False
 231869,,2113858946,231869_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3449.25,True,Cervezas,False
-231869,,2115070698,231869_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2249,True,Cervezas,False
 231869,,2111346558,231869_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5766.75,True,Cervezas,False
 231869,,2469409,231869_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2939.25,True,Cervezas,False
 231869,,1074392807,231869_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3501.15,True,Cervezas,False
 231869,,2482851,231869_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6071.2,True,Cervezas,False
 231869,,1074392811,231869_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3387.3,True,Cervezas,False
 231869,,2482839,231869_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4079.25,True,Cervezas,False
+231869,,1074392831,231869_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2693.65,True,Cervezas,False
 231869,,2114263233,231869_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3859,True,Cervezas,False
 231869,,1074392815,231869_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,3535.15,True,Cervezas,False
 231869,,1074392822,231869_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3450.3,True,Cervezas,False
@@ -782,16 +660,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 231869,,2469437,231869_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3246.75,True,Cervezas,False
 231869,,2482873,231869_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
 231869,,2114869440,231869_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3050.65,True,Cervezas,False
-231869,,2482871,231869_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3177.85,True,Cervezas,True
-231869,,2114083630,231869_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3824.25,True,Cervezas,False
-231869,,2469420,231869_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,True
-231869,,2114549144,231869_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3191.2,True,Cervezas,False
-231869,,2114549076,231869_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2781.75,True,Cervezas,False
-231869,,2114318537,231869_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2291.4,True,Cervezas,False
-231869,,2482879,231869_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,True
-231869,,2114120281,231869_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-231869,,1074392827,231869_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,3892.15,True,Cervezas,False
-231869,,1074392831,231869_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2693.65,True,Cervezas,False
 231869,,2114272837,231869_2114272837,0,6 x Stella Artois Cerveza Rubia,,,26574,True,Cervezas,False
 231869,,2114272827,231869_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23634,True,Cervezas,False
 231869,,2114272851,231869_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,23214,True,Cervezas,False
@@ -811,133 +679,70 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 231869,,2114272862,231869_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,24174,True,Cervezas,False
 231869,,2114272835,231869_2114272835,0,6 x Brahma Cerveza,,,18114,True,Cervezas,False
 231869,,2114272847,231869_2114272847,0,6 x Quilmes Cerveza Clásica,,,16794,True,Cervezas,False
-231869,,2115096847,231869_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1704.5,True,Cervezas,False
-231869,,2115437959,231869_2115437959,1087507,Rabieta cerveza zero 473 ml,Rabieta,473 ml,1954.5,True,Cervezas,False
-231869,,2115351918,231869_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2309.25,True,Cervezas,False
-231869,,2115421806,231869_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
-231869,,2115356155,231869_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2059.5,True,Cervezas,False
-231869,,2115352337,231869_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2301.75,True,Cervezas,False
-231869,,2115413952,231869_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
-231869,,2114833020,231869_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4049,True,Cervezas,False
-231869,,2114869743,231869_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2136.75,True,Cervezas,False
-231869,,2115002412,231869_2115002412,967817,Corona Cerveza 0.0,,473 mL,1957.45,True,Cervezas,False
-231869,,2115129133,231869_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3324.3,True,Cervezas,False
-231869,,2528354,231869_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1258.95,False,Cervezas,False
-231869,,2114084532,231869_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,1779.5,False,Cervezas,False
-231869,,2114013445,231869_2114013445,522389,Heineken Cerveza sin Alcohol,Heineken Cero,1 X 355 mL,2359,False,Cervezas,False
-232258,,2469339,232258_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
-232258,,2115096845,232258_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1504.5,True,Cervezas,True
-232258,,2539095,232258_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
-232258,,2482872,232258_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3989,True,Cervezas,False
+232258,,2469339,232258_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
+232258,,2115096845,232258_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1805.4,True,Cervezas,True
+232258,,2539095,232258_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
+232258,,2482872,232258_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3191.2,True,Cervezas,False
 232258,,1074483987,232258_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4913.3,True,Cervezas,False
 232258,,2469372,232258_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3629.25,True,Cervezas,False
-232258,,2114629800,232258_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,True
-232258,,2482855,232258_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,1955.85,True,Cervezas,False
+232258,,2114629800,232258_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2638.3,True,Cervezas,True
+232258,,2482855,232258_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2264.25,True,Cervezas,False
 232258,,2482871,232258_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3392.35,True,Cervezas,True
-232258,,2469389,232258_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1679.4,True,Cervezas,False
-232258,,2114083629,232258_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3940.3,True,Cervezas,False
-232258,,2114914425,232258_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1809,True,Cervezas,False
-232258,,2114084425,232258_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2274.35,True,Cervezas,True
-232258,,2469547,232258_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2033.85,True,Cervezas,False
-232258,,2113858946,232258_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,False
+232258,,2469389,232258_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2099.25,True,Cervezas,False
+232258,,2114083629,232258_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
+232258,,2114914425,232258_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1299,True,Cervezas,False
+232258,,2114084425,232258_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3499,True,Cervezas,True
+232258,,2469547,232258_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2503.2,True,Cervezas,False
+232258,,2113858946,232258_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,False
 232258,,2111346558,232258_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5991.75,True,Cervezas,False
 232258,,2469409,232258_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,False
 232258,,1074392807,232258_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3645.65,True,Cervezas,False
 232258,,2482851,232258_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6311.2,True,Cervezas,False
+232258,,1074392811,232258_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3436.3,True,Cervezas,False
 232258,,2482839,232258_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4244.25,True,Cervezas,True
+232258,,1074392831,232258_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2804.15,True,Cervezas,True
 232258,,2114263233,232258_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3859,True,Cervezas,False
 232258,,1074392822,232258_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3499.3,True,Cervezas,True
+232258,,1074392805,232258_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5469,True,Cervezas,False
 232258,,2482853,232258_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2359.2,True,Cervezas,True
 232258,,2111346555,232258_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3036.75,True,Cervezas,True
 232258,,2469437,232258_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
-232258,,2114869440,232258_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3169.65,True,Cervezas,False
-232258,,2115070698,232258_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,1962.65,True,Cervezas,False
-232258,,2114083630,232258_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,5249,True,Cervezas,False
-232258,,2469420,232258_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,2705.4,True,Cervezas,False
-232258,,2114549144,232258_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2729.35,True,Cervezas,False
-232258,,2114549076,232258_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
-232258,,2482874,232258_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5009,True,Cervezas,False
-232258,,2482879,232258_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3179,True,Cervezas,False
-232258,,2114120281,232258_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-232258,,1074392827,232258_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2379.5,True,Cervezas,False
-232258,,1074392811,232258_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3436.3,True,Cervezas,False
-232258,,1074392831,232258_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2804.15,True,Cervezas,True
-232258,,1074392805,232258_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5469,True,Cervezas,False
 232258,,2482873,232258_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4079,True,Cervezas,False
-232258,,2114272833,232258_2114272833,0,6 x Andes Cerveza Rubia Origen Mendocina,,,22494,True,Cervezas,False
-232258,,2114272844,232258_2114272844,0,6 x Patagonia Vera Ipa,,,33774,True,Cervezas,False
-232258,,2114272837,232258_2114272837,0,6 x Stella Artois Cerveza Rubia,,,27054,True,Cervezas,False
-232258,,2114272845,232258_2114272845,0,6 x Stella Artois 0.0%,,,21354,True,Cervezas,False
-232258,,2114272855,232258_2114272855,0,6 x Sixpack Heineken Cerveza,,,21775.5,True,Cervezas,False
-232258,,2114272827,232258_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23934,True,Cervezas,False
-232258,,2114272829,232258_2114272829,0,6 x Quilmes Cerveza Stout,,,17694,True,Cervezas,False
-232258,,2114272830,232258_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
-232258,,2114272843,232258_2114272843,0,6 x Sixpack Patagonia Cerveza Session Ipa K24.7,,,33294,True,Cervezas,False
-232258,,2114272853,232258_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,19074,True,Cervezas,False
-232258,,2114272842,232258_2114272842,0,6 x Patagonia Cerveza Amber Lager,,,33954,True,Cervezas,False
-232258,,2114272839,232258_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,13974,True,Cervezas,False
-232258,,2114272846,232258_2114272846,0,6 x Sixpack Michelob Ultra,,,20994,True,Cervezas,False
-232258,,2114272835,232258_2114272835,0,6 x Brahma Cerveza,,,18114,True,Cervezas,False
-232258,,2114272836,232258_2114272836,0,6 x Budweiser Cerveza Rubia,,,18774,True,Cervezas,False
-232258,,2114272857,232258_2114272857,0,6 x Sixpack Miller Cerveza,,,25254,True,Cervezas,False
-232258,,2114272851,232258_2114272851,0,6 x Sixpack Imperial Cerveza Ipa,,,23214,True,Cervezas,False
-232258,,2114272856,232258_2114272856,0,6 x Sixpack Imperial Cerveza Golden,,,22194,True,Cervezas,False
-232258,,2114272860,232258_2114272860,0,6 x Sixpack Blue Moon Belgian White Lata,,,19940.4,True,Cervezas,False
-232258,,2114272862,232258_2114272862,0,6 x Sixpack Imperial Cerveza Stout,,,24474,True,Cervezas,False
+232258,,2114869440,232258_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3169.65,True,Cervezas,False
 232258,,2115413952,232258_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
 232258,,2115352337,232258_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2331.75,True,Cervezas,False
 232258,,2115351918,232258_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2331.75,True,Cervezas,False
-232258,,2114318537,232258_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3769,True,Cervezas,False
-232258,,2528354,232258_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1630.3,True,Cervezas,False
-232258,,2114833020,232258_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4049,True,Cervezas,False
-232258,,2114084532,232258_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,False
-232258,,2114869743,232258_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2091.75,True,Cervezas,False
-232258,,2115096847,232258_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1684.5,True,Cervezas,False
-232258,,2115129133,232258_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3506.3,True,Cervezas,False
-232258,,2114825038,232258_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3729,True,Cervezas,False
-234279,,2539095,234279_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
-234279,,2482872,234279_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3191.2,True,Cervezas,False
+234279,,2539095,234279_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
+234279,,2482872,234279_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3989,True,Cervezas,False
 234279,,2469372,234279_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3644.25,True,Cervezas,False
 234279,,2114629800,234279_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2645.3,True,Cervezas,False
-234279,,2114083629,234279_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
-234279,,2114084425,234279_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3569,True,Cervezas,False
-234279,,2113858946,234279_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,False
-234279,,2115070698,234279_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2319,True,Cervezas,False
-234279,,2114549076,234279_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2774.25,True,Cervezas,False
-234279,,2482874,234279_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5029,True,Cervezas,False
+234279,,2482871,234279_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3164.85,True,Cervezas,False
+234279,,2114083629,234279_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3940.3,True,Cervezas,False
+234279,,2114084425,234279_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2319.85,True,Cervezas,False
+234279,,2469547,234279_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,1936.35,True,Cervezas,False
+234279,,2113858946,234279_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,False
+234279,,2115070698,234279_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,1971.15,True,Cervezas,False
+234279,,2114549144,234279_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,2729.35,True,Cervezas,False
+234279,,2114549076,234279_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,3699,True,Cervezas,False
+234279,,2114318537,234279_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,2369.4,True,Cervezas,False
+234279,,2482874,234279_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5019,True,Cervezas,False
 234279,,2482879,234279_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3369,True,Cervezas,False
-234279,,2114629634,234279_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,7099,True,Cervezas,False
-234279,,2528354,234279_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1651.3,True,Cervezas,False
-234279,,2469353,234279_2469353,354811,Cerveza Patagonia 24.7 473 cc,Patagonia,1 X 473 mL,4221.75,True,Cervezas,False
-234279,,2469371,234279_2469371,597816,Miller Genuine Draft 473ml,Miller,1 X 473.0 mL,4439,True,Cervezas,False
-234279,,2111346558,234279_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,6089.25,True,Cervezas,False
-234279,,2469409,234279_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,False
-234279,,2482851,234279_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6391.2,True,Cervezas,False
-234279,,1074392811,234279_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3429.3,True,Cervezas,False
-234279,,2482839,234279_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4191.75,True,Cervezas,False
-234279,,1074392822,234279_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3478.3,True,Cervezas,False
-234279,,1074392805,234279_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5469,True,Cervezas,False
+234279,,2111346558,234279_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,4871.4,True,Cervezas,False
+234279,,2469409,234279_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,3989,True,Cervezas,False
+234279,,2482851,234279_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,5592.3,True,Cervezas,False
+234279,,1074392811,234279_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3436.3,True,Cervezas,False
+234279,,2482839,234279_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,3606.85,True,Cervezas,False
+234279,,1074392822,234279_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3471.3,True,Cervezas,False
+234279,,1074392805,234279_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5489,True,Cervezas,False
 234279,,1074804154,234279_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4879,True,Cervezas,False
 234279,,2111346555,234279_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2984.25,True,Cervezas,False
 234279,,2469437,234279_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
-234279,,2111346548,234279_2111346548,85169,1890 Cerveza Rubia,1890,1 X 473 mL,2519,True,Cervezas,False
-234279,,2114629803,234279_2114629803,629042,Stella Artois Cerveza,Stella Artois,1 x 330 mL,3471.75,True,Cervezas,False
-234279,,2115151512,234279_2115151512,53387,cerveza estrella damm lata 500ml,Estrella Damm,1 X 500 mL,2949,True,Cervezas,False
-234279,,2114318535,234279_2114318535,681638,Corona Cerveza,Corona,1 X 473 mL,4231.2,True,Cervezas,False
+234279,,2114566586,234279_2114566586,720312,Konig Cerveza Lata,Pilsener Konign,1 x 500 mL,5129,True,Cervezas,False
+234279,,2115299987,234279_2115299987,1049259,Stones Cerveza Maracuyá,,1 x 473 mL,2391.75,True,Cervezas,False
+234279,,2528354,234279_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1651.3,True,Cervezas,False
 234279,,2114833020,234279_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4099,True,Cervezas,False
 234279,,2114084532,234279_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,False
-234279,,2114434307,234279_2114434307,688392,Antares Cerveza Lager,Antares,1 x 473 mL,2848.3,True,Cervezas,False
 234279,,2114869743,234279_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2054.25,True,Cervezas,False
-234279,,2114481637,234279_2114481637,763756,Cerveza Patagonia Lager Del Sur 473 cc,Patagonia,1 X 473 mL,4169.25,True,Cervezas,False
-234279,,2114272844,234279_2114272844,0,6 x Patagonia Vera Ipa,,,33774,True,Cervezas,False
-234279,,2114272855,234279_2114272855,0,6 x Sixpack Heineken Cerveza,,,21865.5,True,Cervezas,False
-234279,,2114272839,234279_2114272839,0,6 x Quilmes 0.0% Cerveza Rubia,,,14154,True,Cervezas,False
-234279,,2114272853,234279_2114272853,0,6 x Sixpack Amstel Cerveza Lager,,,20214,True,Cervezas,False
-234279,,2114272830,234279_2114272830,0,6 x Andes Cerveza Roja Origen Mendocina,,,23934,True,Cervezas,False
-234279,,2114272846,234279_2114272846,0,6 x Sixpack Michelob Ultra,,,21414,True,Cervezas,False
-234279,,2114272827,234279_2114272827,0,6 x Andes Cerveza Ipa Origen Mendocina,,,23934,True,Cervezas,False
-234279,,2114272864,234279_2114272864,0,6 x Sixpack Warsteiner Cerveza,,,17467.8,True,Cervezas,False
-234279,,2114272857,234279_2114272857,0,6 x Sixpack Miller Cerveza,,,26634,True,Cervezas,False
 234279,,2115002412,234279_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
 234279,,2115129133,234279_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
 234279,,2114825038,234279_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3769,True,Cervezas,False
@@ -962,15 +767,16 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 240042,,2482839,240042_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4056.75,True,Cervezas,True
 240042,,2482853,240042_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2311.2,True,Cervezas,True
 240042,,2482873,240042_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,True
-240042,,2469420,240042_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3321.75,True,Cervezas,True
-240042,,2114549144,240042_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3191.2,True,Cervezas,True
+240042,,1074392827,240042_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,2289.5,True,Cervezas,True
+240042,,1074392810,240042_1074392810,186129,Pampa Brewing Cerveza Honey Lata 473 ml,Pampa,1 X 473 mL,1913.4,True,Cervezas,True
+240042,,2115232278,240042_2115232278,1018337,Stella Artois Cerveza 710 ml,,1 x 710 mL,3796.8,True,Cervezas,False
+240042,,2112599376,240042_2112599376,186987,Rabieta Cerveza Helles Munich,Rabieta,1 X 473 mL,2054.5,True,Cervezas,True
+240042,,2115351918,240042_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2020.85,True,Cervezas,True
+240042,,2115413952,240042_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2197.3,True,Cervezas,True
+240042,,2115421806,240042_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,3028.35,True,Cervezas,False
+240042,,2115352337,240042_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2020.85,True,Cervezas,True
+240042,,2115352049,240042_2115352049,1067473,Cerveza Flying Fish Lata,Flying Fish,473 mL,2075.4,True,Cervezas,True
 240042,,2114318537,240042_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3819,True,Cervezas,True
-240042,,2482874,240042_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5069,True,Cervezas,True
-240042,,2482879,240042_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3139,True,Cervezas,True
-240042,,2114120281,240042_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,True
-240042,,1074392827,240042_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,3892.15,True,Cervezas,True
-240042,,2114629634,240042_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6829,True,Cervezas,True
-240042,,1074485103,240042_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4453.15,True,Cervezas,True
 240042,,2528354,240042_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1602.3,True,Cervezas,True
 240042,,2114833020,240042_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4049,True,Cervezas,True
 240042,,2114084532,240042_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3559,True,Cervezas,True
@@ -1003,30 +809,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 242531,,2111346555,242531_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2879.25,True,Cervezas,False
 242531,,2469437,242531_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3329.25,True,Cervezas,True
 242531,,2482873,242531_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,3759,True,Cervezas,True
-242531,,2114083630,242531_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3869.25,True,Cervezas,True
-242531,,2469420,242531_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3314.25,True,Cervezas,False
-242531,,2114549144,242531_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3231.2,True,Cervezas,True
-242531,,2114549076,242531_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2819.25,True,Cervezas,True
-242531,,2114318537,242531_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3939,True,Cervezas,True
-242531,,2482874,242531_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,4719,True,Cervezas,False
-242531,,2482879,242531_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3029,True,Cervezas,False
-242531,,2114120281,242531_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4209,True,Cervezas,False
-242531,,2114629634,242531_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6529,True,Cervezas,False
-242531,,2112599376,242531_2112599376,186987,Rabieta Cerveza Helles Munich,Rabieta,1 X 473 mL,3492.65,True,Cervezas,False
-242531,,2115421806,242531_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
-242531,,2115351918,242531_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2309.25,True,Cervezas,True
-242531,,2115437959,242531_2115437959,1087507,Rabieta cerveza zero 473 ml,Rabieta,473 ml,1954.5,True,Cervezas,True
-242531,,2115413952,242531_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,True
-242531,,2114926558,242531_2114926558,953712,Cerveza Lager Estrella Del Sur Lata,,500 mL,1759,True,Cervezas,True
-242531,,2115356155,242531_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2059.5,True,Cervezas,False
-242531,,2115352337,242531_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2271.75,True,Cervezas,True
-242531,,2528354,242531_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1602.3,True,Cervezas,False
-242531,,2114084532,242531_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3629,True,Cervezas,True
-242531,,2114869743,242531_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,1971.75,True,Cervezas,False
-242531,,2115002412,242531_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,True
-242531,,2115096847,242531_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1704.5,True,Cervezas,True
-242531,,2115129133,242531_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,True
-242531,,2114825038,242531_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3689,True,Cervezas,True
 244575,,2114318537,244575_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3769,True,Cervezas,False
 244575,,2528354,244575_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1553.3,True,Cervezas,False
 244575,,2114833020,244575_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4129,True,Cervezas,False
@@ -1064,19 +846,6 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 244576,,2469437,244576_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3179.25,True,Cervezas,False
 244576,,2482873,244576_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4009,True,Cervezas,False
 244576,,2114869440,244576_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,2923.15,True,Cervezas,False
-244576,,2114549144,244576_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3159.2,True,Cervezas,False
-244576,,2114549076,244576_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2646.75,True,Cervezas,False
-244576,,2114318537,244576_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3749,True,Cervezas,False
-244576,,2482874,244576_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,4949,True,Cervezas,False
-244576,,2482879,244576_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3249,True,Cervezas,False
-244576,,2114120281,244576_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4489,True,Cervezas,False
-244576,,1074392827,244576_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,3756.15,True,Cervezas,False
-244576,,2114629634,244576_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,7009,True,Cervezas,False
-244576,,1074485103,244576_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4504.15,True,Cervezas,True
-244576,,2115437959,244576_2115437959,1087507,Rabieta cerveza zero 473 ml,Rabieta,473 ml,1954.5,True,Cervezas,False
-244576,,2114926558,244576_2114926558,953712,Cerveza Lager Estrella Del Sur Lata,,500 mL,1759,True,Cervezas,False
-244576,,2115421806,244576_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4379,True,Cervezas,False
-244576,,2115351918,244576_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2189.25,True,Cervezas,False
 250388,,2469339,250388_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2646.75,True,Cervezas,False
 250388,,2539095,250388_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
 250388,,2482872,250388_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,2999.2,True,Cervezas,False
@@ -1099,17 +868,24 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 250388,,2482839,250388_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,3989.25,True,Cervezas,False
 250388,,1074392822,250388_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3534.3,True,Cervezas,False
 250388,,1074392805,250388_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5429,True,Cervezas,False
-250388,,2482853,250388_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2008.3,True,Cervezas,False
-250388,,2111346555,250388_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3759,True,Cervezas,False
-250388,,2469437,250388_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2573.4,True,Cervezas,False
-250388,,2482873,250388_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2573.35,True,Cervezas,False
+250388,,2482853,250388_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2303.2,True,Cervezas,False
+250388,,2111346555,250388_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2849.25,True,Cervezas,False
+250388,,2469437,250388_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3216.75,True,Cervezas,False
+250388,,2482873,250388_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,3979,True,Cervezas,False
+250388,,2114083630,250388_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3704.25,True,Cervezas,False
+250388,,2114549076,250388_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2601.75,True,Cervezas,False
+250388,,2469420,250388_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3261.75,True,Cervezas,False
+250388,,2114549144,250388_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3231.2,True,Cervezas,False
 250388,,2114318537,250388_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3779,True,Cervezas,False
-250388,,2528354,250388_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1553.3,True,Cervezas,False
-250388,,2114833020,250388_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4069,True,Cervezas,False
-250388,,2114869743,250388_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
-250388,,2115002412,250388_2115002412,967817,Corona Cerveza 0.0,,473 mL,3609,True,Cervezas,False
-250388,,2115129133,250388_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
-250388,,2114825038,250388_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3509,True,Cervezas,False
+250388,,2482874,250388_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,4999,True,Cervezas,False
+250388,,2482879,250388_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3229,True,Cervezas,False
+250388,,2114120281,250388_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4389,True,Cervezas,False
+250388,,2114629634,250388_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6929,True,Cervezas,False
+250388,,2114566586,250388_2114566586,720312,Konig Cerveza Lata,Pilsener Konign,1 x 500 mL,5129,True,Cervezas,False
+250388,,2115458650,250388_2115458650,1093402,Stella artois pure gold cerveza latón 710 ml,Stella Artois,710 ml,6359,True,Cervezas,False
+250388,,2115299987,250388_2115299987,1049259,Stones Cerveza Maracuyá,,1 x 473 mL,2309.25,True,Cervezas,False
+250388,,1074392819,250388_1074392819,91592,Cerveza Kunstmann Session Ipa 470ml,Kunstmann,1 X 470 mL,5059,True,Cervezas,False
+250388,,2115421806,250388_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4379,True,Cervezas,False
 255978,,2469339,255978_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2631.75,True,Cervezas,False
 255978,,2482872,255978_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,2999.2,True,Cervezas,False
 255978,,2469372,255978_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3261.75,True,Cervezas,False
@@ -1170,15 +946,15 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 262497,,2111346555,262497_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2819.25,True,Cervezas,False
 262497,,2469437,262497_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3216.75,True,Cervezas,False
 262497,,2114869440,262497_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,2982.65,True,Cervezas,True
+262497,,2469420,262497_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3179.25,True,Cervezas,False
+262497,,2114549076,262497_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2646.75,True,Cervezas,True
 262497,,2114318537,262497_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3749,True,Cervezas,False
+262497,,2482874,262497_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,3419.25,True,Cervezas,False
+262497,,2482879,262497_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,2939,True,Cervezas,False
+262497,,1074392827,262497_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,3756.15,True,Cervezas,False
+262497,,2114629634,262497_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6309,True,Cervezas,False
+262497,,1074485103,262497_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4053.65,True,Cervezas,False
 262497,,2528354,262497_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1553.3,True,Cervezas,False
-262497,,2114833020,262497_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,3689,True,Cervezas,False
-262497,,2114084532,262497_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3489,True,Cervezas,True
-262497,,2114869743,262497_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,1926.75,True,Cervezas,False
-262497,,2115002412,262497_2115002412,967817,Corona Cerveza 0.0,,473 mL,3559,True,Cervezas,False
-262497,,2115096847,262497_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,1909.5,True,Cervezas,False
-262497,,2115129133,262497_2115129133,998321,Ipa Cerveza Antares Especiales Sin Alcohol,Antares,1 x 473 mL,3555.3,True,Cervezas,False
-262497,,2114825038,262497_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3459,True,Cervezas,False
 266848,,2469339,266848_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2849.25,True,Cervezas,False
 266848,,2115096845,266848_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,2969,True,Cervezas,False
 266848,,2539095,266848_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
@@ -1203,66 +979,58 @@ store_id,store_address,product_id,sku_id,master_product_id,name,trademark,presen
 266848,,1074392831,266848_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,3339,True,Cervezas,False
 266848,,1074392815,266848_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,4379,True,Cervezas,False
 266848,,1074392822,266848_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3450.3,True,Cervezas,False
-266848,,2482853,266848_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2391.2,True,Cervezas,False
-266848,,1074804154,266848_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4749,True,Cervezas,False
-266848,,2111346555,266848_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2999.25,True,Cervezas,False
-266848,,2469437,266848_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
-266848,,2482873,266848_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,4029,True,Cervezas,False
-266848,,2114869440,266848_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3729,True,Cervezas,False
-266848,,2114083630,266848_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3936.75,True,Cervezas,False
-266848,,2469420,266848_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3464.25,True,Cervezas,False
-266848,,2114549144,266848_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
-266848,,2114549076,266848_2114549076,796267,Cerveza Andes Origen Oro 473 cc,Andes Origen,1 X 473 mL,2774.25,True,Cervezas,False
-266848,,2114318537,266848_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3869,True,Cervezas,False
-266848,,2482874,266848_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,5019,True,Cervezas,False
-266848,,2482879,266848_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3219,True,Cervezas,False
-266848,,2114120281,266848_2114120281,156789,Schneider Cerveza Lager,Schneider,1 X 710 mL,4439,True,Cervezas,False
-266848,,1074392827,266848_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,4759,True,Cervezas,False
-266848,,2528354,266848_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1672.3,True,Cervezas,False
-266848,,2114833020,266848_2114833020,871704,cerveza heineken cero x473ml,Heineken,1 x 473 mL,4029,True,Cervezas,False
-266848,,2114084532,266848_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3509,True,Cervezas,False
-266848,,2114869743,266848_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2114.25,True,Cervezas,False
-266848,,2115002412,266848_2115002412,967817,Corona Cerveza 0.0,,473 mL,3559,True,Cervezas,False
-266848,,2115096847,266848_2115096847,993850,Estrella Galicia Cerveza 0.0 Tostada Lata 330ml,Estrella Galicia,1 x 330 mL,3409,True,Cervezas,False
-266848,,2114825038,266848_2114825038,626232,Stella Artois Cerveza 0%,Stella Artois 0,1 X 330 mL,3729,True,Cervezas,False
-266872,,2469339,266872_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,3749,True,Cervezas,False
-266872,,2115096845,266872_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1484.5,True,Cervezas,False
-266872,,2539095,266872_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,4647,True,Cervezas,False
-266872,,2482872,266872_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3939,True,Cervezas,False
+266848,,2482853,266848_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2092.3,True,Cervezas,False
+266848,,1074804154,266848_1074804154,299187,cerveza extra stout guinness lat 473 ml,Guinnes,1 X 473 mL,4759,True,Cervezas,False
+266848,,2111346555,266848_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3999,True,Cervezas,False
+266848,,2469437,266848_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,False
+266848,,2482873,266848_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2605.85,True,Cervezas,False
+266848,,2114869440,266848_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3629,True,Cervezas,False
+266872,,2469339,266872_2469339,262474,Cerveza Andes Origen Rubia 473 cc,Andes Origen,1 X 473 mL,2811.75,True,Cervezas,False
+266872,,2115096845,266872_2115096845,993848,Cerveza Pampa Lager Lata 473ml,Pampa,1 x 473 mL,1853.4,True,Cervezas,False
+266872,,2539095,266872_2539095,188850,Corona Cerveza Rubia,Corona,1 X 710 mL,5808.75,True,Cervezas,False
+266872,,2482872,266872_2482872,442634,Cerveza Andes Origen Ipa 473 cc,Andes Origen,1 X 473.0 mL,3151.2,True,Cervezas,False
 266872,,1074483987,266872_1074483987,96872,Heineken Cerveza Rubia en Lata,Heineken,1 X 710.0 mL,4822.3,True,Cervezas,False
 266872,,2469372,266872_2469372,428367,Heineken Cerveza Rubia,Heineken,1 X 473 mL,3516.75,True,Cervezas,False
-266872,,2114629800,266872_2114629800,631362,Salta Cerveza Session Ipa,Salta Cautiva,1 x 473 mL,2561.3,True,Cervezas,False
-266872,,2482855,266872_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2040.35,True,Cervezas,False
+266872,,2482855,266872_2482855,288202,Cerveza Brahma Chopp 473 cc,Brahma,1 X 473.0 mL,2361.75,True,Cervezas,False
 266872,,2482871,266872_2482871,162208,Corona Cerveza Tipo Lager 330 ml,Corona,1 X 330.0 mL,3353.35,True,Cervezas,False
-266872,,2469389,266872_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,1769.4,True,Cervezas,False
-266872,,2114083629,266872_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,3940.3,True,Cervezas,False
-266872,,2114914425,266872_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1839,True,Cervezas,False
-266872,,2114084425,266872_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,2293.85,True,Cervezas,False
-266872,,2469547,266872_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2137.85,True,Cervezas,False
-266872,,2113858946,266872_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3054.35,True,Cervezas,False
-266872,,2111346558,266872_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,4793.4,True,Cervezas,False
-266872,,2469409,266872_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,3989,True,Cervezas,False
+266872,,2469389,266872_2469389,156749,Cerveza Quilmes Clásica 473 cc,Quilmes,1 X 473 mL,2219.25,True,Cervezas,False
+266872,,2114083629,266872_2114083629,57613,Cerveza Patagonia Vera Ipa 473 cc,Patagonia,1 X 473 mL,4784.65,True,Cervezas,False
+266872,,2114914425,266872_2114914425,930894,Cerveza Quilmes Bajo Cero,,473 mL,1829,True,Cervezas,False
+266872,,2114084425,266872_2114084425,612401,Michelob Cerveza Light Ultra,Michelob Ultra,1 X 473 mL,3539,True,Cervezas,False
+266872,,2469547,266872_2469547,37640,Cerveza Budweiser 473 cc,Budweiser,1 X 473 mL,2631.2,True,Cervezas,False
+266872,,2113858946,266872_2113858946,532010,Cerveza Budweiser 710 cc,Budweiser,1 X 710 mL,3524.25,True,Cervezas,False
+266872,,2115070698,266872_2115070698,59512,Cerveza Brahma Chopp Lata 354mlx1,Brahma,1 X 354 mL,2279,True,Cervezas,False
+266872,,2111346558,266872_2111346558,288198,Cerveza Patagonia Ipa 730 cc,Patagonia,1 X 730 mL,5991.75,True,Cervezas,False
+266872,,2469409,266872_2469409,442640,Cerveza Andes Origen Roja 473 cc,Andes Origen,1 X 473 mL,2991.75,True,Cervezas,False
 266872,,1074392807,266872_1074392807,2621,Rabieta Cerveza Red Honey,Rabieta,1 X 473 mL,3645.65,True,Cervezas,False
-266872,,2482851,266872_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,5592.3,True,Cervezas,False
-266872,,1074392811,266872_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3716.3,True,Cervezas,False
-266872,,2482839,266872_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,3658.85,True,Cervezas,False
+266872,,2482851,266872_2482851,628296,Cerveza Patagonia Amber Lager 730 cc,Patagonia,1 X 730 mL,6391.2,True,Cervezas,False
+266872,,1074392811,266872_1074392811,48040,Antares Cerveza Artesanal Honey,Antares,1 X 473 mL,3709.3,True,Cervezas,False
+266872,,2482839,266872_2482839,228999,Cerveza Patagonia Amber Lager 473 cc,Patagonia,1 X 473 mL,4244.25,True,Cervezas,False
 266872,,1074392831,266872_1074392831,14038,Pampa Brewing Amber Ale Lata 473ml,Pampa,1 X 473 mL,2804.15,True,Cervezas,False
-266872,,2114263233,266872_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,2579.85,True,Cervezas,False
-266872,,1074392815,266872_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,2164.5,True,Cervezas,False
-266872,,1074392822,266872_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3744.3,True,Cervezas,False
-266872,,1074392805,266872_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5279,True,Cervezas,False
-266872,,2482853,266872_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2092.3,True,Cervezas,False
-266872,,2111346555,266872_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,3999,True,Cervezas,False
-266872,,2469437,266872_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,2735.4,True,Cervezas,False
-266872,,2482873,266872_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,2527.85,True,Cervezas,False
-266872,,2114869440,266872_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3084.65,True,Cervezas,False
+266872,,2114263233,266872_2114263233,448096,Imperial Cerveza Roja Amber Lager Lata,Imperial,1 X 473 mL,3969,True,Cervezas,False
+266872,,1074392815,266872_1074392815,86175,Rabieta Cerveza Irish Red Ale,Rabieta,1 X 473 mL,3671.15,True,Cervezas,False
+266872,,1074392822,266872_1074392822,57990,Antares Cerveza Scotch,Antares,1 X 473 mL,3828.3,True,Cervezas,False
+266872,,1074392805,266872_1074392805,16183,Kunstmann Torobayo Lata 470ml,Kunstmann,1 X 470 mL,5299,True,Cervezas,False
+266872,,2482853,266872_2482853,300550,Cerveza Quilmes Stout 473 cc,Quilmes,1 X 473 mL,2391.2,True,Cervezas,False
+266872,,2111346555,266872_2111346555,229428,Andes Origen Cerveza Negra en Lata,Andes Origen,1 X 473 mL,2999.25,True,Cervezas,False
+266872,,2469437,266872_2469437,359073,Cerveza Stella Artois Noire 473 cc,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
+266872,,2482873,266872_2482873,13942,Imperial Cerveza Negra Cream Stout en Lata,Imperial,1 X 473 mL,3909,True,Cervezas,False
+266872,,2114869440,266872_2114869440,299182,Pampa Brewing Nitro Cream Stout 473ml,Pampa,1 X 473 mL,3169.65,True,Cervezas,False
+266872,,2114083630,266872_2114083630,583007,Cerveza Andes Origen Rubia 710 cc,Andes,1 X 710 mL,3884.25,True,Cervezas,False
+266872,,2469420,266872_2469420,63327,Stella Artois Cerveza Rubia,Stella Artois,1 X 473 mL,3419.25,True,Cervezas,False
+266872,,2114549144,266872_2114549144,794526,Cerveza Quilmes Clásica 710 cc,Quilmes,1 X 710 mL,3359.2,True,Cervezas,False
+266872,,2114318537,266872_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3979,True,Cervezas,False
+266872,,2482874,266872_2482874,43389,Heineken Cerveza Original,Heineken,1 X 330 mL,4929,True,Cervezas,False
+266872,,2482879,266872_2482879,606296,Amstel Cerveza Lager Pura Malta ,Amstel,1 X 473 mL,3139,True,Cervezas,True
+266872,,1074392827,266872_1074392827,29240,Rabieta Cerveza American Ipa,Rabieta,1 X 473 mL,4045.15,True,Cervezas,False
+266872,,2114629634,266872_2114629634,43537,Miller Cerveza Rubia,Miller,1 X 600 mL,6709,True,Cervezas,False
+266872,,1074485103,266872_1074485103,32074,Imperial Cerveza Lager Dorada Lata 710ml,Imperial,1 X 710 mL,4317.15,True,Cervezas,False
 266872,,2114566586,266872_2114566586,720312,Konig Cerveza Lata,Pilsener Konign,1 x 500 mL,5129,True,Cervezas,False
 266872,,2115421806,266872_2115421806,1080198,Michelob Ultra Cerveza,,1 x 710 mL,4659,True,Cervezas,False
 266872,,2115356155,266872_2115356155,1043009,Cerveza Lager Estrella Galicia Porrón,,355 mL,2084.5,True,Cervezas,False
 266872,,2115352337,266872_2115352337,1067472,Cerveza Brahma Ft Limon Lata,Brahma,473 mL,2354.25,True,Cervezas,False
 266872,,2115413952,266872_2115413952,1078211,Cerveza Schneider Remix Pomelo 473ml,,473 mL,2190.3,True,Cervezas,False
 266872,,2115351918,266872_2115351918,1067474,Cerveza Brahma Ft Pomelo Lata,Brahma,473 mL,2331.75,True,Cervezas,False
-266872,,2114318537,266872_2114318537,681636,Corona Cerveza Cero,Corona 0,1 X 330 mL,3979,True,Cervezas,False
 266872,,2528354,266872_2528354,271499,Cerveza Quilmes 0% 473 cc,Quilmes 0,1 X 473 mL,1630.3,True,Cervezas,False
 266872,,2114084532,266872_2114084532,604026,Cerveza Stella Artois 0% 473 cc,Stella Artois 0,1 x 473 mL,3709,True,Cervezas,False
 266872,,2114869743,266872_2114869743,892720,Imperial Cerveza Sin Alcohol Golden,,1 x 473 cc,2046.75,True,Cervezas,False
